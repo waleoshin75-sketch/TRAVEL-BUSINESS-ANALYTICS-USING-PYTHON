@@ -1,0 +1,9 @@
+client_key,corporate_id,company_name,client_tier,preferred_channel,contract_sla_hours,operational_urgency_tier,account_health_index
+1,CORP-1000,Alpha Global Corp,Silver,Mixed,2,High Urgency,Silver - High Urgency
+2,CORP-1001,Beta Logistics Llc,Platinum,Online Cbt,2,High Urgency,Platinum - High Urgency
+3,CORP-1002,Gamma Pharma Inc,Platinum,Mixed,2,High Urgency,Platinum - High Urgency
+4,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,Standard Urgency,Silver - Standard Urgency
+5,CORP-1004,Omega Energy Group,Gold,Mixed,4,Standard Urgency,Gold - Standard Urgency
+6,CORP-1005,Zeta Financial Services,Platinum,Online Cbt,2,High Urgency,Platinum - High Urgency
+7,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,Standard Urgency,Platinum - Standard Urgency
+8,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,Standard Urgency,Platinum - Standard Urgency

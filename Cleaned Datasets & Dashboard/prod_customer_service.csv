@@ -1,0 +1,151 @@
+interaction_key,ticket_id,client_key,complaint_category,resolution_status,customer_satisfaction_score,complaint_verdict_text,corporate_id,company_name,client_tier,preferred_channel,contract_sla_hours,satisfaction_segment,critical_complaint_flag
+1,TMC-TKT-9900,5,Cbt App Crash,Resolved,5,Cbt system completely crashed during execution,CORP-1004,Omega Energy Group,Gold,Mixed,4,Highly Satisfied,High Priority Escalation
+2,TMC-TKT-9901,4,Flight Delay Protocol Failure,Escalated,4,Good service overall but agent was slow,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,Highly Satisfied,High Priority Escalation
+3,TMC-TKT-9902,5,Flight Delay Protocol Failure,Escalated,1,Protocol team missed me at airport gate,CORP-1004,Omega Energy Group,Gold,Mixed,4,Dissatisfied,High Priority Escalation
+4,TMC-TKT-9903,4,Cbt App Crash,Escalated,1,Good service overall but agent was slow,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,Dissatisfied,High Priority Escalation
+5,TMC-TKT-9904,1,Overbilling Request Dispute,Escalated,4,Overcharged my credit card for flight ticket fees!!!,CORP-1000,Alpha Global Corp,Silver,Mixed,2,Highly Satisfied,High Priority Escalation
+6,TMC-TKT-9905,5,Cbt App Crash,Escalated,5,Good service overall but agent was slow,CORP-1004,Omega Energy Group,Gold,Mixed,4,Highly Satisfied,High Priority Escalation
+7,TMC-TKT-9906,8,Flight Delay Protocol Failure,Open-Breached,3,Cbt system completely crashed during execution,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,Neutral,High Priority Escalation
+8,TMC-TKT-9907,1,Cbt App Crash,Open-Breached,-1,Cbt system completely crashed during execution,CORP-1000,Alpha Global Corp,Silver,Mixed,2,Unrated,High Priority Escalation
+9,TMC-TKT-9908,7,Flight Delay Protocol Failure,Resolved,2,Cbt system completely crashed during execution,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,Dissatisfied,High Priority Escalation
+10,TMC-TKT-9909,1,Delayed Visa Processing,Escalated,1,Good service overall but agent was slow,CORP-1000,Alpha Global Corp,Silver,Mixed,2,Dissatisfied,Standard
+11,TMC-TKT-9910,6,Overbilling Request Dispute,Open-Breached,1,Highly upset with slow visa advisory response,CORP-1005,Zeta Financial Services,Platinum,Online Cbt,2,Dissatisfied,High Priority Escalation
+12,TMC-TKT-9911,7,Delayed Visa Processing,Open-Breached,4,Satisfied with response turnaround timeline parameters,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,Highly Satisfied,Standard
+13,TMC-TKT-9912,7,Delayed Visa Processing,Resolved,3,Highly upset with slow visa advisory response,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,Neutral,Standard
+14,TMC-TKT-9913,5,Overbilling Request Dispute,Escalated,5,Overcharged my credit card for flight ticket fees!!!,CORP-1004,Omega Energy Group,Gold,Mixed,4,Highly Satisfied,High Priority Escalation
+15,TMC-TKT-9914,2,Delayed Visa Processing,Resolved,3,Satisfied with response turnaround timeline parameters,CORP-1001,Beta Logistics Llc,Platinum,Online Cbt,2,Neutral,Standard
+16,TMC-TKT-9915,8,Delayed Visa Processing,Resolved,-1,Cbt system completely crashed during execution,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,Unrated,High Priority Escalation
+17,TMC-TKT-9916,8,Flight Delay Protocol Failure,Open-Breached,4,Overcharged my credit card for flight ticket fees!!!,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,Highly Satisfied,High Priority Escalation
+18,TMC-TKT-9917,6,Overbilling Request Dispute,Open-Breached,3,Satisfied with response turnaround timeline parameters,CORP-1005,Zeta Financial Services,Platinum,Online Cbt,2,Neutral,High Priority Escalation
+19,TMC-TKT-9918,1,Cbt App Crash,Resolved,-1,Satisfied with response turnaround timeline parameters,CORP-1000,Alpha Global Corp,Silver,Mixed,2,Unrated,High Priority Escalation
+20,TMC-TKT-9919,4,Flight Delay Protocol Failure,Escalated,2,Overcharged my credit card for flight ticket fees!!!,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,Dissatisfied,High Priority Escalation
+21,TMC-TKT-9920,1,Overbilling Request Dispute,Resolved,5,Cbt system completely crashed during execution,CORP-1000,Alpha Global Corp,Silver,Mixed,2,Highly Satisfied,High Priority Escalation
+22,TMC-TKT-9921,5,Delayed Visa Processing,Open-Breached,5,Good service overall but agent was slow,CORP-1004,Omega Energy Group,Gold,Mixed,4,Highly Satisfied,Standard
+23,TMC-TKT-9922,7,Delayed Visa Processing,Open-Breached,3,Protocol team missed me at airport gate,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,Neutral,High Priority Escalation
+24,TMC-TKT-9923,8,Flight Delay Protocol Failure,Open-Breached,1,Cbt system completely crashed during execution,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,Dissatisfied,High Priority Escalation
+25,TMC-TKT-9924,6,Flight Delay Protocol Failure,Escalated,2,Protocol team missed me at airport gate,CORP-1005,Zeta Financial Services,Platinum,Online Cbt,2,Dissatisfied,High Priority Escalation
+26,TMC-TKT-9925,1,Overbilling Request Dispute,Open-Breached,-1,Protocol team missed me at airport gate,CORP-1000,Alpha Global Corp,Silver,Mixed,2,Unrated,High Priority Escalation
+27,TMC-TKT-9926,7,Flight Delay Protocol Failure,Escalated,5,Good service overall but agent was slow,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,Highly Satisfied,High Priority Escalation
+28,TMC-TKT-9927,4,Flight Delay Protocol Failure,Escalated,5,Satisfied with response turnaround timeline parameters,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,Highly Satisfied,High Priority Escalation
+29,TMC-TKT-9928,6,Overbilling Request Dispute,Resolved,1,Cbt system completely crashed during execution,CORP-1005,Zeta Financial Services,Platinum,Online Cbt,2,Dissatisfied,High Priority Escalation
+30,TMC-TKT-9929,2,Flight Delay Protocol Failure,Escalated,3,Cbt system completely crashed during execution,CORP-1001,Beta Logistics Llc,Platinum,Online Cbt,2,Neutral,High Priority Escalation
+31,TMC-TKT-9930,1,Overbilling Request Dispute,Resolved,1,Cbt system completely crashed during execution,CORP-1000,Alpha Global Corp,Silver,Mixed,2,Dissatisfied,High Priority Escalation
+32,TMC-TKT-9931,4,Flight Delay Protocol Failure,Escalated,4,Satisfied with response turnaround timeline parameters,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,Highly Satisfied,High Priority Escalation
+33,TMC-TKT-9932,7,Flight Delay Protocol Failure,Open-Breached,-1,Protocol team missed me at airport gate,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,Unrated,High Priority Escalation
+34,TMC-TKT-9933,2,Flight Delay Protocol Failure,Escalated,1,Satisfied with response turnaround timeline parameters,CORP-1001,Beta Logistics Llc,Platinum,Online Cbt,2,Dissatisfied,High Priority Escalation
+35,TMC-TKT-9934,4,Delayed Visa Processing,Resolved,2,Good service overall but agent was slow,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,Dissatisfied,Standard
+36,TMC-TKT-9935,4,Flight Delay Protocol Failure,Escalated,-1,Highly upset with slow visa advisory response,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,Unrated,High Priority Escalation
+37,TMC-TKT-9936,3,Overbilling Request Dispute,Escalated,5,Cbt system completely crashed during execution,CORP-1002,Gamma Pharma Inc,Platinum,Mixed,2,Highly Satisfied,High Priority Escalation
+38,TMC-TKT-9937,6,Delayed Visa Processing,Open-Breached,3,Satisfied with response turnaround timeline parameters,CORP-1005,Zeta Financial Services,Platinum,Online Cbt,2,Neutral,Standard
+39,TMC-TKT-9938,5,Delayed Visa Processing,Resolved,4,Highly upset with slow visa advisory response,CORP-1004,Omega Energy Group,Gold,Mixed,4,Highly Satisfied,Standard
+40,TMC-TKT-9939,2,Flight Delay Protocol Failure,Escalated,2,Protocol team missed me at airport gate,CORP-1001,Beta Logistics Llc,Platinum,Online Cbt,2,Dissatisfied,High Priority Escalation
+41,TMC-TKT-9940,2,Cbt App Crash,Resolved,5,Protocol team missed me at airport gate,CORP-1001,Beta Logistics Llc,Platinum,Online Cbt,2,Highly Satisfied,High Priority Escalation
+42,TMC-TKT-9941,1,Delayed Visa Processing,Open-Breached,5,Overcharged my credit card for flight ticket fees!!!,CORP-1000,Alpha Global Corp,Silver,Mixed,2,Highly Satisfied,High Priority Escalation
+43,TMC-TKT-9942,8,Overbilling Request Dispute,Resolved,3,Satisfied with response turnaround timeline parameters,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,Neutral,High Priority Escalation
+44,TMC-TKT-9943,7,Flight Delay Protocol Failure,Escalated,-1,Good service overall but agent was slow,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,Unrated,High Priority Escalation
+45,TMC-TKT-9944,1,Overbilling Request Dispute,Open-Breached,3,Overcharged my credit card for flight ticket fees!!!,CORP-1000,Alpha Global Corp,Silver,Mixed,2,Neutral,High Priority Escalation
+46,TMC-TKT-9945,6,Cbt App Crash,Resolved,-1,Satisfied with response turnaround timeline parameters,CORP-1005,Zeta Financial Services,Platinum,Online Cbt,2,Unrated,High Priority Escalation
+47,TMC-TKT-9946,5,Flight Delay Protocol Failure,Escalated,3,Highly upset with slow visa advisory response,CORP-1004,Omega Energy Group,Gold,Mixed,4,Neutral,High Priority Escalation
+48,TMC-TKT-9947,4,Overbilling Request Dispute,Open-Breached,-1,Satisfied with response turnaround timeline parameters,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,Unrated,High Priority Escalation
+49,TMC-TKT-9948,2,Overbilling Request Dispute,Escalated,4,Satisfied with response turnaround timeline parameters,CORP-1001,Beta Logistics Llc,Platinum,Online Cbt,2,Highly Satisfied,High Priority Escalation
+50,TMC-TKT-9949,8,Flight Delay Protocol Failure,Escalated,3,Satisfied with response turnaround timeline parameters,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,Neutral,High Priority Escalation
+51,TMC-TKT-9950,4,Cbt App Crash,Resolved,2,Protocol team missed me at airport gate,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,Dissatisfied,High Priority Escalation
+52,TMC-TKT-9951,6,Delayed Visa Processing,Escalated,-1,Cbt system completely crashed during execution,CORP-1005,Zeta Financial Services,Platinum,Online Cbt,2,Unrated,High Priority Escalation
+53,TMC-TKT-9952,1,Delayed Visa Processing,Escalated,3,Cbt system completely crashed during execution,CORP-1000,Alpha Global Corp,Silver,Mixed,2,Neutral,High Priority Escalation
+54,TMC-TKT-9953,6,Flight Delay Protocol Failure,Open-Breached,3,Good service overall but agent was slow,CORP-1005,Zeta Financial Services,Platinum,Online Cbt,2,Neutral,High Priority Escalation
+55,TMC-TKT-9954,4,Flight Delay Protocol Failure,Escalated,2,Highly upset with slow visa advisory response,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,Dissatisfied,High Priority Escalation
+56,TMC-TKT-9955,2,Flight Delay Protocol Failure,Open-Breached,4,Overcharged my credit card for flight ticket fees!!!,CORP-1001,Beta Logistics Llc,Platinum,Online Cbt,2,Highly Satisfied,High Priority Escalation
+57,TMC-TKT-9956,8,Flight Delay Protocol Failure,Open-Breached,5,Highly upset with slow visa advisory response,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,Highly Satisfied,High Priority Escalation
+58,TMC-TKT-9957,2,Cbt App Crash,Escalated,3,Highly upset with slow visa advisory response,CORP-1001,Beta Logistics Llc,Platinum,Online Cbt,2,Neutral,High Priority Escalation
+59,TMC-TKT-9958,8,Overbilling Request Dispute,Escalated,1,Good service overall but agent was slow,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,Dissatisfied,High Priority Escalation
+60,TMC-TKT-9959,2,Overbilling Request Dispute,Open-Breached,-1,Overcharged my credit card for flight ticket fees!!!,CORP-1001,Beta Logistics Llc,Platinum,Online Cbt,2,Unrated,High Priority Escalation
+61,TMC-TKT-9960,2,Cbt App Crash,Resolved,2,Cbt system completely crashed during execution,CORP-1001,Beta Logistics Llc,Platinum,Online Cbt,2,Dissatisfied,High Priority Escalation
+62,TMC-TKT-9961,1,Flight Delay Protocol Failure,Open-Breached,-1,Cbt system completely crashed during execution,CORP-1000,Alpha Global Corp,Silver,Mixed,2,Unrated,High Priority Escalation
+63,TMC-TKT-9962,1,Delayed Visa Processing,Resolved,1,Protocol team missed me at airport gate,CORP-1000,Alpha Global Corp,Silver,Mixed,2,Dissatisfied,High Priority Escalation
+64,TMC-TKT-9963,7,Flight Delay Protocol Failure,Resolved,5,Overcharged my credit card for flight ticket fees!!!,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,Highly Satisfied,High Priority Escalation
+65,TMC-TKT-9964,6,Overbilling Request Dispute,Resolved,4,Protocol team missed me at airport gate,CORP-1005,Zeta Financial Services,Platinum,Online Cbt,2,Highly Satisfied,High Priority Escalation
+66,TMC-TKT-9965,2,Flight Delay Protocol Failure,Escalated,1,Good service overall but agent was slow,CORP-1001,Beta Logistics Llc,Platinum,Online Cbt,2,Dissatisfied,High Priority Escalation
+67,TMC-TKT-9966,3,Overbilling Request Dispute,Open-Breached,1,Highly upset with slow visa advisory response,CORP-1002,Gamma Pharma Inc,Platinum,Mixed,2,Dissatisfied,High Priority Escalation
+68,TMC-TKT-9967,1,Flight Delay Protocol Failure,Open-Breached,-1,Cbt system completely crashed during execution,CORP-1000,Alpha Global Corp,Silver,Mixed,2,Unrated,High Priority Escalation
+69,TMC-TKT-9968,8,Delayed Visa Processing,Open-Breached,2,Highly upset with slow visa advisory response,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,Dissatisfied,Standard
+70,TMC-TKT-9969,1,Overbilling Request Dispute,Open-Breached,4,Highly upset with slow visa advisory response,CORP-1000,Alpha Global Corp,Silver,Mixed,2,Highly Satisfied,High Priority Escalation
+71,TMC-TKT-9970,5,Flight Delay Protocol Failure,Open-Breached,5,Satisfied with response turnaround timeline parameters,CORP-1004,Omega Energy Group,Gold,Mixed,4,Highly Satisfied,High Priority Escalation
+72,TMC-TKT-9971,7,Cbt App Crash,Escalated,-1,Satisfied with response turnaround timeline parameters,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,Unrated,High Priority Escalation
+73,TMC-TKT-9972,2,Flight Delay Protocol Failure,Escalated,-1,Satisfied with response turnaround timeline parameters,CORP-1001,Beta Logistics Llc,Platinum,Online Cbt,2,Unrated,High Priority Escalation
+74,TMC-TKT-9973,2,Delayed Visa Processing,Resolved,4,Satisfied with response turnaround timeline parameters,CORP-1001,Beta Logistics Llc,Platinum,Online Cbt,2,Highly Satisfied,Standard
+75,TMC-TKT-9974,1,Cbt App Crash,Escalated,4,Cbt system completely crashed during execution,CORP-1000,Alpha Global Corp,Silver,Mixed,2,Highly Satisfied,High Priority Escalation
+76,TMC-TKT-9975,1,Delayed Visa Processing,Resolved,5,Cbt system completely crashed during execution,CORP-1000,Alpha Global Corp,Silver,Mixed,2,Highly Satisfied,High Priority Escalation
+77,TMC-TKT-9976,5,Flight Delay Protocol Failure,Open-Breached,1,Overcharged my credit card for flight ticket fees!!!,CORP-1004,Omega Energy Group,Gold,Mixed,4,Dissatisfied,High Priority Escalation
+78,TMC-TKT-9977,7,Cbt App Crash,Escalated,-1,Satisfied with response turnaround timeline parameters,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,Unrated,High Priority Escalation
+79,TMC-TKT-9978,7,Overbilling Request Dispute,Resolved,-1,Cbt system completely crashed during execution,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,Unrated,High Priority Escalation
+80,TMC-TKT-9979,2,Cbt App Crash,Escalated,1,Protocol team missed me at airport gate,CORP-1001,Beta Logistics Llc,Platinum,Online Cbt,2,Dissatisfied,High Priority Escalation
+81,TMC-TKT-9980,7,Cbt App Crash,Resolved,5,Cbt system completely crashed during execution,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,Highly Satisfied,High Priority Escalation
+82,TMC-TKT-9981,4,Flight Delay Protocol Failure,Escalated,1,Highly upset with slow visa advisory response,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,Dissatisfied,High Priority Escalation
+83,TMC-TKT-9982,1,Overbilling Request Dispute,Open-Breached,-1,Highly upset with slow visa advisory response,CORP-1000,Alpha Global Corp,Silver,Mixed,2,Unrated,High Priority Escalation
+84,TMC-TKT-9983,8,Overbilling Request Dispute,Escalated,4,Overcharged my credit card for flight ticket fees!!!,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,Highly Satisfied,High Priority Escalation
+85,TMC-TKT-9984,7,Cbt App Crash,Open-Breached,-1,Highly upset with slow visa advisory response,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,Unrated,High Priority Escalation
+86,TMC-TKT-9985,8,Cbt App Crash,Escalated,1,Satisfied with response turnaround timeline parameters,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,Dissatisfied,High Priority Escalation
+87,TMC-TKT-9986,7,Cbt App Crash,Resolved,3,Protocol team missed me at airport gate,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,Neutral,High Priority Escalation
+88,TMC-TKT-9987,2,Overbilling Request Dispute,Resolved,4,Overcharged my credit card for flight ticket fees!!!,CORP-1001,Beta Logistics Llc,Platinum,Online Cbt,2,Highly Satisfied,High Priority Escalation
+89,TMC-TKT-9988,6,Cbt App Crash,Resolved,5,Satisfied with response turnaround timeline parameters,CORP-1005,Zeta Financial Services,Platinum,Online Cbt,2,Highly Satisfied,High Priority Escalation
+90,TMC-TKT-9989,1,Delayed Visa Processing,Open-Breached,3,Satisfied with response turnaround timeline parameters,CORP-1000,Alpha Global Corp,Silver,Mixed,2,Neutral,Standard
+91,TMC-TKT-9990,8,Flight Delay Protocol Failure,Open-Breached,4,Cbt system completely crashed during execution,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,Highly Satisfied,High Priority Escalation
+92,TMC-TKT-9991,6,Flight Delay Protocol Failure,Resolved,2,Cbt system completely crashed during execution,CORP-1005,Zeta Financial Services,Platinum,Online Cbt,2,Dissatisfied,High Priority Escalation
+93,TMC-TKT-9992,4,Flight Delay Protocol Failure,Resolved,-1,Cbt system completely crashed during execution,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,Unrated,High Priority Escalation
+94,TMC-TKT-9993,2,Cbt App Crash,Open-Breached,1,Highly upset with slow visa advisory response,CORP-1001,Beta Logistics Llc,Platinum,Online Cbt,2,Dissatisfied,High Priority Escalation
+95,TMC-TKT-9994,2,Flight Delay Protocol Failure,Open-Breached,1,Highly upset with slow visa advisory response,CORP-1001,Beta Logistics Llc,Platinum,Online Cbt,2,Dissatisfied,High Priority Escalation
+96,TMC-TKT-9995,1,Cbt App Crash,Escalated,4,Good service overall but agent was slow,CORP-1000,Alpha Global Corp,Silver,Mixed,2,Highly Satisfied,High Priority Escalation
+97,TMC-TKT-9996,2,Flight Delay Protocol Failure,Resolved,3,Satisfied with response turnaround timeline parameters,CORP-1001,Beta Logistics Llc,Platinum,Online Cbt,2,Neutral,High Priority Escalation
+98,TMC-TKT-9997,4,Overbilling Request Dispute,Resolved,2,Protocol team missed me at airport gate,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,Dissatisfied,High Priority Escalation
+99,TMC-TKT-9998,3,Cbt App Crash,Resolved,4,Satisfied with response turnaround timeline parameters,CORP-1002,Gamma Pharma Inc,Platinum,Mixed,2,Highly Satisfied,High Priority Escalation
+100,TMC-TKT-9999,5,Cbt App Crash,Resolved,1,Cbt system completely crashed during execution,CORP-1004,Omega Energy Group,Gold,Mixed,4,Dissatisfied,High Priority Escalation
+101,TMC-TKT-10000,6,Flight Delay Protocol Failure,Escalated,2,Protocol team missed me at airport gate,CORP-1005,Zeta Financial Services,Platinum,Online Cbt,2,Dissatisfied,High Priority Escalation
+102,TMC-TKT-10001,7,Overbilling Request Dispute,Escalated,-1,Cbt system completely crashed during execution,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,Unrated,High Priority Escalation
+103,TMC-TKT-10002,8,Overbilling Request Dispute,Resolved,1,Overcharged my credit card for flight ticket fees!!!,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,Dissatisfied,High Priority Escalation
+104,TMC-TKT-10003,8,Delayed Visa Processing,Resolved,3,Protocol team missed me at airport gate,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,Neutral,High Priority Escalation
+105,TMC-TKT-10004,3,Flight Delay Protocol Failure,Escalated,-1,Protocol team missed me at airport gate,CORP-1002,Gamma Pharma Inc,Platinum,Mixed,2,Unrated,High Priority Escalation
+106,TMC-TKT-10005,4,Delayed Visa Processing,Open-Breached,-1,Highly upset with slow visa advisory response,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,Unrated,Standard
+107,TMC-TKT-10006,3,Overbilling Request Dispute,Open-Breached,3,Good service overall but agent was slow,CORP-1002,Gamma Pharma Inc,Platinum,Mixed,2,Neutral,High Priority Escalation
+108,TMC-TKT-10007,1,Cbt App Crash,Resolved,2,Highly upset with slow visa advisory response,CORP-1000,Alpha Global Corp,Silver,Mixed,2,Dissatisfied,High Priority Escalation
+109,TMC-TKT-10008,1,Overbilling Request Dispute,Escalated,1,Protocol team missed me at airport gate,CORP-1000,Alpha Global Corp,Silver,Mixed,2,Dissatisfied,High Priority Escalation
+110,TMC-TKT-10009,3,Flight Delay Protocol Failure,Resolved,5,Overcharged my credit card for flight ticket fees!!!,CORP-1002,Gamma Pharma Inc,Platinum,Mixed,2,Highly Satisfied,High Priority Escalation
+111,TMC-TKT-10010,5,Delayed Visa Processing,Escalated,-1,Highly upset with slow visa advisory response,CORP-1004,Omega Energy Group,Gold,Mixed,4,Unrated,Standard
+112,TMC-TKT-10011,7,Cbt App Crash,Open-Breached,3,Good service overall but agent was slow,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,Neutral,High Priority Escalation
+113,TMC-TKT-10012,6,Overbilling Request Dispute,Resolved,-1,Satisfied with response turnaround timeline parameters,CORP-1005,Zeta Financial Services,Platinum,Online Cbt,2,Unrated,High Priority Escalation
+114,TMC-TKT-10013,5,Cbt App Crash,Resolved,2,Cbt system completely crashed during execution,CORP-1004,Omega Energy Group,Gold,Mixed,4,Dissatisfied,High Priority Escalation
+115,TMC-TKT-10014,3,Cbt App Crash,Escalated,2,Protocol team missed me at airport gate,CORP-1002,Gamma Pharma Inc,Platinum,Mixed,2,Dissatisfied,High Priority Escalation
+116,TMC-TKT-10015,3,Cbt App Crash,Escalated,4,Highly upset with slow visa advisory response,CORP-1002,Gamma Pharma Inc,Platinum,Mixed,2,Highly Satisfied,High Priority Escalation
+117,TMC-TKT-10016,8,Cbt App Crash,Escalated,3,Satisfied with response turnaround timeline parameters,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,Neutral,High Priority Escalation
+118,TMC-TKT-10017,5,Cbt App Crash,Resolved,1,Highly upset with slow visa advisory response,CORP-1004,Omega Energy Group,Gold,Mixed,4,Dissatisfied,High Priority Escalation
+119,TMC-TKT-10018,6,Overbilling Request Dispute,Resolved,3,Satisfied with response turnaround timeline parameters,CORP-1005,Zeta Financial Services,Platinum,Online Cbt,2,Neutral,High Priority Escalation
+120,TMC-TKT-10019,5,Cbt App Crash,Resolved,4,Overcharged my credit card for flight ticket fees!!!,CORP-1004,Omega Energy Group,Gold,Mixed,4,Highly Satisfied,High Priority Escalation
+121,TMC-TKT-10020,6,Overbilling Request Dispute,Open-Breached,-1,Protocol team missed me at airport gate,CORP-1005,Zeta Financial Services,Platinum,Online Cbt,2,Unrated,High Priority Escalation
+122,TMC-TKT-10021,1,Overbilling Request Dispute,Escalated,-1,Cbt system completely crashed during execution,CORP-1000,Alpha Global Corp,Silver,Mixed,2,Unrated,High Priority Escalation
+123,TMC-TKT-10022,3,Cbt App Crash,Escalated,5,Overcharged my credit card for flight ticket fees!!!,CORP-1002,Gamma Pharma Inc,Platinum,Mixed,2,Highly Satisfied,High Priority Escalation
+124,TMC-TKT-10023,1,Delayed Visa Processing,Open-Breached,2,Protocol team missed me at airport gate,CORP-1000,Alpha Global Corp,Silver,Mixed,2,Dissatisfied,High Priority Escalation
+125,TMC-TKT-10024,4,Flight Delay Protocol Failure,Resolved,1,Protocol team missed me at airport gate,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,Dissatisfied,High Priority Escalation
+126,TMC-TKT-10025,1,Cbt App Crash,Escalated,2,Satisfied with response turnaround timeline parameters,CORP-1000,Alpha Global Corp,Silver,Mixed,2,Dissatisfied,High Priority Escalation
+127,TMC-TKT-10026,7,Flight Delay Protocol Failure,Resolved,-1,Highly upset with slow visa advisory response,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,Unrated,High Priority Escalation
+128,TMC-TKT-10027,6,Overbilling Request Dispute,Resolved,4,Satisfied with response turnaround timeline parameters,CORP-1005,Zeta Financial Services,Platinum,Online Cbt,2,Highly Satisfied,High Priority Escalation
+129,TMC-TKT-10028,4,Delayed Visa Processing,Resolved,1,Good service overall but agent was slow,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,Dissatisfied,Standard
+130,TMC-TKT-10029,4,Overbilling Request Dispute,Escalated,3,Protocol team missed me at airport gate,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,Neutral,High Priority Escalation
+131,TMC-TKT-10030,4,Delayed Visa Processing,Escalated,5,Cbt system completely crashed during execution,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,Highly Satisfied,High Priority Escalation
+132,TMC-TKT-10031,2,Overbilling Request Dispute,Open-Breached,5,Satisfied with response turnaround timeline parameters,CORP-1001,Beta Logistics Llc,Platinum,Online Cbt,2,Highly Satisfied,High Priority Escalation
+133,TMC-TKT-10032,6,Delayed Visa Processing,Open-Breached,4,Highly upset with slow visa advisory response,CORP-1005,Zeta Financial Services,Platinum,Online Cbt,2,Highly Satisfied,Standard
+134,TMC-TKT-10033,4,Overbilling Request Dispute,Escalated,2,Satisfied with response turnaround timeline parameters,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,Dissatisfied,High Priority Escalation
+135,TMC-TKT-10034,8,Flight Delay Protocol Failure,Resolved,5,Good service overall but agent was slow,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,Highly Satisfied,High Priority Escalation
+136,TMC-TKT-10035,8,Delayed Visa Processing,Open-Breached,2,Satisfied with response turnaround timeline parameters,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,Dissatisfied,Standard
+137,TMC-TKT-10036,6,Delayed Visa Processing,Open-Breached,-1,Satisfied with response turnaround timeline parameters,CORP-1005,Zeta Financial Services,Platinum,Online Cbt,2,Unrated,Standard
+138,TMC-TKT-10037,6,Delayed Visa Processing,Escalated,-1,Satisfied with response turnaround timeline parameters,CORP-1005,Zeta Financial Services,Platinum,Online Cbt,2,Unrated,Standard
+139,TMC-TKT-10038,5,Overbilling Request Dispute,Open-Breached,5,Satisfied with response turnaround timeline parameters,CORP-1004,Omega Energy Group,Gold,Mixed,4,Highly Satisfied,High Priority Escalation
+140,TMC-TKT-10039,7,Delayed Visa Processing,Resolved,-1,Highly upset with slow visa advisory response,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,Unrated,Standard
+141,TMC-TKT-10040,6,Flight Delay Protocol Failure,Open-Breached,-1,Cbt system completely crashed during execution,CORP-1005,Zeta Financial Services,Platinum,Online Cbt,2,Unrated,High Priority Escalation
+142,TMC-TKT-10041,3,Overbilling Request Dispute,Open-Breached,5,Satisfied with response turnaround timeline parameters,CORP-1002,Gamma Pharma Inc,Platinum,Mixed,2,Highly Satisfied,High Priority Escalation
+143,TMC-TKT-10042,2,Flight Delay Protocol Failure,Open-Breached,5,Overcharged my credit card for flight ticket fees!!!,CORP-1001,Beta Logistics Llc,Platinum,Online Cbt,2,Highly Satisfied,High Priority Escalation
+144,TMC-TKT-10043,8,Overbilling Request Dispute,Escalated,2,Cbt system completely crashed during execution,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,Dissatisfied,High Priority Escalation
+145,TMC-TKT-10044,1,Overbilling Request Dispute,Escalated,1,Highly upset with slow visa advisory response,CORP-1000,Alpha Global Corp,Silver,Mixed,2,Dissatisfied,High Priority Escalation
+146,TMC-TKT-10045,8,Overbilling Request Dispute,Resolved,5,Good service overall but agent was slow,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,Highly Satisfied,High Priority Escalation
+147,TMC-TKT-10046,4,Overbilling Request Dispute,Resolved,2,Highly upset with slow visa advisory response,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,Dissatisfied,High Priority Escalation
+148,TMC-TKT-10047,1,Flight Delay Protocol Failure,Resolved,-1,Highly upset with slow visa advisory response,CORP-1000,Alpha Global Corp,Silver,Mixed,2,Unrated,High Priority Escalation
+149,TMC-TKT-10048,4,Flight Delay Protocol Failure,Escalated,1,Cbt system completely crashed during execution,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,Dissatisfied,High Priority Escalation
+150,TMC-TKT-10049,4,Overbilling Request Dispute,Resolved,2,Protocol team missed me at airport gate,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,Dissatisfied,High Priority Escalation

@@ -1,0 +1,501 @@
+booking_key,booking_id,client_key,travel_type,booking_channel,base_fare_usd,taxes_and_fees,corporate_id,company_name,client_tier,preferred_channel,contract_sla_hours,processing_duration_hours,total_gross_cost,travel_classification,sla_status
+1,TMC-BK-10000,6,Flight-International,Online Portal,$888.48 ,$283.76 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,0.5,$888.48 ,Flight,Within SLA
+2,TMC-BK-10001,1,Hotel-Booking,Email Request,$171.77 ,$159.51 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,18,$171.77 ,Lodging,SLA Breached
+3,TMC-BK-10002,7,Flight-Domestic,Offline Walk-In,"$1,289.84 ",$248.29 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,48,"$1,289.84 ",Flight,SLA Breached
+4,TMC-BK-10003,2,Flight-Domestic,Offline Walk-In,"$1,277.59 ",$447.89 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,48,"$1,277.59 ",Flight,SLA Breached
+5,TMC-BK-10004,1,Hotel-Booking,Email Request,$474.00 ,$175.39 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,1,$474.00 ,Lodging,Within SLA
+6,TMC-BK-10005,2,Hotel-Booking,Online Portal,"$2,853.88 ",$80.13 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,18,"$2,853.88 ",Lodging,SLA Breached
+7,TMC-BK-10006,1,Hotel-Booking,Email Request,"$3,409.94 ",$264.12 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,3,"$3,409.94 ",Lodging,SLA Breached
+8,TMC-BK-10007,2,Flight-Domestic,Offline,"$2,928.51 ",$245.87 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,18,"$2,928.51 ",Flight,SLA Breached
+9,TMC-BK-10008,6,Flight-International,Offline,"$2,084.13 ",$293.54 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,0.5,"$2,084.13 ",Flight,Within SLA
+10,TMC-BK-10009,2,Flight-International,Offline,$913.46 ,$234.31 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,18,$913.46 ,Flight,SLA Breached
+11,TMC-BK-10010,5,Flight-International,Offline,$929.85 ,$101.46 ,CORP-1004,omega energy group,Gold,Mixed,4,48,$929.85 ,Flight,SLA Breached
+12,TMC-BK-10011,5,Flight-Domestic,Offline,"$1,081.21 ",$284.00 ,CORP-1004,omega energy group,Gold,Mixed,4,18,"$1,081.21 ",Flight,SLA Breached
+13,TMC-BK-10012,2,Flight-International,Offline Walk-In,"$1,390.11 ",$326.15 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,48,"$1,390.11 ",Flight,SLA Breached
+14,TMC-BK-10013,5,Flight-Domestic,Online Portal,"$3,287.79 ",$441.18 ,CORP-1004,omega energy group,Gold,Mixed,4,36,"$3,287.79 ",Flight,SLA Breached
+15,TMC-BK-10014,8,Flight-Domestic,Online Portal,$723.31 ,$25.67 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,1,$723.31 ,Flight,Within SLA
+16,TMC-BK-10015,7,Hotel-Booking,Online Cbt,"$1,421.18 ",$35.19 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,0.5,"$1,421.18 ",Lodging,Within SLA
+17,TMC-BK-10016,7,Flight-Domestic,Email Request,"$2,015.78 ",$290.82 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,3,"$2,015.78 ",Flight,Within SLA
+18,TMC-BK-10017,1,Hotel-Booking,Offline Walk-In,"$2,749.60 ",$75.12 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,36,"$2,749.60 ",Lodging,SLA Breached
+19,TMC-BK-10018,8,Flight-Domestic,Offline Walk-In,"$1,206.77 ",$385.43 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,0.5,"$1,206.77 ",Flight,Within SLA
+20,TMC-BK-10019,3,Hotel-Booking,Email Request,"$3,308.75 ",$364.81 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,36,"$3,308.75 ",Lodging,SLA Breached
+21,TMC-BK-10020,4,Hotel-Booking,Email Request,"$2,345.72 ",$449.57 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,18,"$2,345.72 ",Lodging,SLA Breached
+22,TMC-BK-10021,3,Flight-Domestic,Offline,"$1,687.15 ",$200.97 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,36,"$1,687.15 ",Flight,SLA Breached
+23,TMC-BK-10022,7,Flight-Domestic,Offline Walk-In,"$2,030.58 ",$166.86 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,1,"$2,030.58 ",Flight,Within SLA
+24,TMC-BK-10023,5,Flight-Domestic,Offline Walk-In,"$3,157.71 ",$263.18 ,CORP-1004,omega energy group,Gold,Mixed,4,18,"$3,157.71 ",Flight,SLA Breached
+25,TMC-BK-10024,3,Flight-Domestic,Email Request,"$3,491.75 ",$295.94 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,18,"$3,491.75 ",Flight,SLA Breached
+26,TMC-BK-10025,5,Hotel-Booking,Email Request,$307.84 ,$29.80 ,CORP-1004,omega energy group,Gold,Mixed,4,5,$307.84 ,Lodging,SLA Breached
+27,TMC-BK-10026,6,Hotel-Booking,Online Portal,"$2,251.94 ",$110.50 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,18,"$2,251.94 ",Lodging,SLA Breached
+28,TMC-BK-10027,1,Hotel-Booking,Offline,$362.82 ,$144.69 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,3,$362.82 ,Lodging,SLA Breached
+29,TMC-BK-10028,3,Flight-Domestic,Online Cbt,"$1,922.53 ",$360.83 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,18,"$1,922.53 ",Flight,SLA Breached
+30,TMC-BK-10029,2,Flight-Domestic,Offline,$188.46 ,$155.80 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,3,$188.46 ,Flight,SLA Breached
+31,TMC-BK-10030,1,Flight-International,Offline Walk-In,"$1,948.85 ",$240.34 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,3,"$1,948.85 ",Flight,SLA Breached
+32,TMC-BK-10031,1,Flight-International,Online Portal,$523.70 ,$162.67 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,18,$523.70 ,Flight,SLA Breached
+33,TMC-BK-10032,7,Flight-International,Email Request,"$3,345.28 ",$27.61 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,1,"$3,345.28 ",Flight,Within SLA
+34,TMC-BK-10033,2,Flight-International,Online Cbt,"$1,826.96 ",$316.48 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,18,"$1,826.96 ",Flight,SLA Breached
+35,TMC-BK-10034,5,Hotel-Booking,Offline Walk-In,"$3,066.24 ",$170.08 ,CORP-1004,omega energy group,Gold,Mixed,4,48,"$3,066.24 ",Lodging,SLA Breached
+36,TMC-BK-10035,4,Flight-International,Online Cbt,"$2,190.05 ",$332.87 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,36,"$2,190.05 ",Flight,SLA Breached
+37,TMC-BK-10036,6,Hotel-Booking,Offline,"$1,956.92 ",$286.80 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,48,"$1,956.92 ",Lodging,SLA Breached
+38,TMC-BK-10037,4,Flight-Domestic,Online Portal,$151.92 ,$37.37 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,0.5,$151.92 ,Flight,Within SLA
+39,TMC-BK-10038,7,Hotel-Booking,Offline,"$3,262.48 ",$99.64 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,18,"$3,262.48 ",Lodging,SLA Breached
+40,TMC-BK-10039,3,Hotel-Booking,Email Request,"$1,180.17 ",$165.47 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,3,"$1,180.17 ",Lodging,SLA Breached
+41,TMC-BK-10040,3,Hotel-Booking,Online Portal,"$3,091.33 ",$168.62 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,0.5,"$3,091.33 ",Lodging,Within SLA
+42,TMC-BK-10041,3,Flight-International,Offline,"$1,778.07 ",$310.80 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,18,"$1,778.07 ",Flight,SLA Breached
+43,TMC-BK-10042,4,Flight-International,Online Cbt,"$2,698.02 ",$414.37 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,18,"$2,698.02 ",Flight,SLA Breached
+44,TMC-BK-10043,5,Flight-International,Online Portal,"$1,742.20 ",$363.83 ,CORP-1004,omega energy group,Gold,Mixed,4,18,"$1,742.20 ",Flight,SLA Breached
+45,TMC-BK-10044,4,Flight-Domestic,Online Portal,"$3,072.65 ",$299.40 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,5,"$3,072.65 ",Flight,SLA Breached
+46,TMC-BK-10045,2,Flight-International,Email Request,"$1,956.64 ",$229.64 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,18,"$1,956.64 ",Flight,SLA Breached
+47,TMC-BK-10046,3,Flight-International,Email Request,"$1,194.25 ",$291.56 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,3,"$1,194.25 ",Flight,SLA Breached
+48,TMC-BK-10047,1,Flight-International,Online Cbt,"$1,617.64 ",$404.12 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,0.5,"$1,617.64 ",Flight,Within SLA
+49,TMC-BK-10048,8,Flight-Domestic,Online Cbt,$902.74 ,$253.21 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,18,$902.74 ,Flight,Within SLA
+50,TMC-BK-10049,2,Hotel-Booking,Online Portal,$920.88 ,$167.42 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,1,$920.88 ,Lodging,Within SLA
+51,TMC-BK-10050,5,Flight-International,Offline Walk-In,"$2,264.19 ",$358.20 ,CORP-1004,omega energy group,Gold,Mixed,4,48,"$2,264.19 ",Flight,SLA Breached
+52,TMC-BK-10051,2,Flight-International,Offline,"$3,029.78 ",$200.93 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,5,"$3,029.78 ",Flight,SLA Breached
+53,TMC-BK-10052,5,Flight-Domestic,Online Portal,$947.32 ,$340.60 ,CORP-1004,omega energy group,Gold,Mixed,4,18,$947.32 ,Flight,SLA Breached
+54,TMC-BK-10053,2,Hotel-Booking,Online Cbt,$593.24 ,$379.92 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,36,$593.24 ,Lodging,SLA Breached
+55,TMC-BK-10054,4,Flight-International,Online Portal,"$1,733.45 ",$152.22 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,18,"$1,733.45 ",Flight,SLA Breached
+56,TMC-BK-10055,8,Flight-International,Email Request,$787.87 ,$333.11 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,18,$787.87 ,Flight,Within SLA
+57,TMC-BK-10056,6,Flight-Domestic,Offline,"$1,594.02 ",$159.09 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,18,"$1,594.02 ",Flight,SLA Breached
+58,TMC-BK-10057,6,Hotel-Booking,Online Portal,"$2,592.40 ",$252.75 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,0.5,"$2,592.40 ",Lodging,Within SLA
+59,TMC-BK-10058,3,Flight-International,Email Request,$479.70 ,$113.51 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,48,$479.70 ,Flight,SLA Breached
+60,TMC-BK-10059,4,Flight-International,Offline,"$3,036.60 ",$316.33 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,3,"$3,036.60 ",Flight,Within SLA
+61,TMC-BK-10060,2,Hotel-Booking,Offline,"$1,652.86 ",$364.80 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,18,"$1,652.86 ",Lodging,SLA Breached
+62,TMC-BK-10061,5,Flight-Domestic,Offline Walk-In,$986.85 ,$402.41 ,CORP-1004,omega energy group,Gold,Mixed,4,36,$986.85 ,Flight,SLA Breached
+63,TMC-BK-10062,2,Flight-Domestic,Email Request,"$3,035.52 ",$175.28 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,5,"$3,035.52 ",Flight,SLA Breached
+64,TMC-BK-10063,4,Flight-International,Offline,"$3,497.60 ",$437.09 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,48,"$3,497.60 ",Flight,SLA Breached
+65,TMC-BK-10064,6,Flight-International,Offline Walk-In,"$3,253.33 ",$144.20 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,18,"$3,253.33 ",Flight,SLA Breached
+66,TMC-BK-10065,8,Hotel-Booking,Offline Walk-In,"$1,776.90 ",$38.25 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,3,"$1,776.90 ",Lodging,Within SLA
+67,TMC-BK-10066,8,Flight-Domestic,Online Portal,$346.43 ,$443.04 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,36,$346.43 ,Flight,SLA Breached
+68,TMC-BK-10067,6,Flight-Domestic,Online Cbt,"$1,038.43 ",$291.27 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,1,"$1,038.43 ",Flight,Within SLA
+69,TMC-BK-10068,5,Hotel-Booking,Online Cbt,"$1,567.08 ",$383.02 ,CORP-1004,omega energy group,Gold,Mixed,4,48,"$1,567.08 ",Lodging,SLA Breached
+70,TMC-BK-10069,3,Flight-International,Offline,"$2,011.82 ",$267.67 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,3,"$2,011.82 ",Flight,SLA Breached
+71,TMC-BK-10070,6,Flight-International,Offline,"$1,143.97 ",$190.57 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,18,"$1,143.97 ",Flight,SLA Breached
+72,TMC-BK-10071,6,Hotel-Booking,Offline,"$1,966.35 ",$277.96 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,18,"$1,966.35 ",Lodging,SLA Breached
+73,TMC-BK-10072,7,Flight-International,Online Portal,"$2,106.99 ",$392.45 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,5,"$2,106.99 ",Flight,SLA Breached
+74,TMC-BK-10073,3,Flight-International,Offline Walk-In,$677.40 ,$344.40 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,18,$677.40 ,Flight,SLA Breached
+75,TMC-BK-10074,1,Flight-International,Online Cbt,$772.51 ,$324.74 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,18,$772.51 ,Flight,SLA Breached
+76,TMC-BK-10075,6,Hotel-Booking,Email Request,$937.93 ,$158.66 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,18,$937.93 ,Lodging,SLA Breached
+77,TMC-BK-10076,4,Flight-Domestic,Online Cbt,"$3,132.46 ",$38.44 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,36,"$3,132.46 ",Flight,SLA Breached
+78,TMC-BK-10077,4,Flight-Domestic,Offline Walk-In,"$2,224.93 ",$200.89 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,1,"$2,224.93 ",Flight,Within SLA
+79,TMC-BK-10078,7,Flight-Domestic,Offline Walk-In,"$1,901.32 ",$236.25 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,1,"$1,901.32 ",Flight,Within SLA
+80,TMC-BK-10079,5,Flight-Domestic,Email Request,"$2,549.24 ",$126.00 ,CORP-1004,omega energy group,Gold,Mixed,4,18,"$2,549.24 ",Flight,SLA Breached
+81,TMC-BK-10080,6,Hotel-Booking,Online Portal,"$2,400.16 ",$217.06 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,18,"$2,400.16 ",Lodging,SLA Breached
+82,TMC-BK-10081,3,Flight-Domestic,Online Cbt,"$2,668.75 ",$429.06 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,48,"$2,668.75 ",Flight,SLA Breached
+83,TMC-BK-10082,6,Hotel-Booking,Offline,"$1,685.26 ",$116.86 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,36,"$1,685.26 ",Lodging,SLA Breached
+84,TMC-BK-10083,8,Flight-Domestic,Online Portal,$395.42 ,$153.49 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,18,$395.42 ,Flight,Within SLA
+85,TMC-BK-10084,8,Flight-International,Offline,"$3,276.42 ",$72.70 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,36,"$3,276.42 ",Flight,SLA Breached
+86,TMC-BK-10085,8,Hotel-Booking,Online Cbt,"$1,387.92 ",$358.60 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,3,"$1,387.92 ",Lodging,Within SLA
+87,TMC-BK-10086,6,Hotel-Booking,Email Request,"$2,506.86 ",$355.56 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,36,"$2,506.86 ",Lodging,SLA Breached
+88,TMC-BK-10087,5,Flight-International,Online Portal,"$2,340.82 ",$413.18 ,CORP-1004,omega energy group,Gold,Mixed,4,36,"$2,340.82 ",Flight,SLA Breached
+89,TMC-BK-10088,8,Hotel-Booking,Online Cbt,"$2,887.30 ",$213.60 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,18,"$2,887.30 ",Lodging,Within SLA
+90,TMC-BK-10089,2,Hotel-Booking,Offline,"$3,295.42 ",$35.60 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,5,"$3,295.42 ",Lodging,SLA Breached
+91,TMC-BK-10090,3,Flight-Domestic,Online Cbt,$536.69 ,$230.13 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,5,$536.69 ,Flight,SLA Breached
+92,TMC-BK-10091,2,Hotel-Booking,Offline Walk-In,"$2,003.30 ",$237.52 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,18,"$2,003.30 ",Lodging,SLA Breached
+93,TMC-BK-10092,5,Hotel-Booking,Offline Walk-In,"$2,554.00 ",$105.84 ,CORP-1004,omega energy group,Gold,Mixed,4,0.5,"$2,554.00 ",Lodging,Within SLA
+94,TMC-BK-10093,3,Hotel-Booking,Online Cbt,"$1,034.35 ",$417.55 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,18,"$1,034.35 ",Lodging,SLA Breached
+95,TMC-BK-10094,4,Hotel-Booking,Offline,"$2,984.45 ",$336.29 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,36,"$2,984.45 ",Lodging,SLA Breached
+96,TMC-BK-10095,5,Flight-Domestic,Offline Walk-In,"$1,568.98 ",$247.54 ,CORP-1004,omega energy group,Gold,Mixed,4,5,"$1,568.98 ",Flight,SLA Breached
+97,TMC-BK-10096,2,Hotel-Booking,Online Cbt,"$2,733.25 ",$354.60 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,18,"$2,733.25 ",Lodging,SLA Breached
+98,TMC-BK-10097,2,Hotel-Booking,Online Cbt,"$2,633.12 ",$85.90 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,48,"$2,633.12 ",Lodging,SLA Breached
+99,TMC-BK-10098,1,Hotel-Booking,Offline,$182.39 ,$395.51 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,18,$182.39 ,Lodging,SLA Breached
+100,TMC-BK-10099,1,Hotel-Booking,Offline Walk-In,"$3,108.41 ",$374.41 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,18,"$3,108.41 ",Lodging,SLA Breached
+101,TMC-BK-10100,7,Flight-Domestic,Offline,"$2,945.89 ",$423.66 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,48,"$2,945.89 ",Flight,SLA Breached
+102,TMC-BK-10101,4,Flight-Domestic,Offline,$576.94 ,$312.60 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,18,$576.94 ,Flight,SLA Breached
+103,TMC-BK-10102,1,Flight-Domestic,Offline,"$2,817.01 ",$81.40 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,1,"$2,817.01 ",Flight,Within SLA
+104,TMC-BK-10103,5,Hotel-Booking,Offline Walk-In,$853.76 ,$332.94 ,CORP-1004,omega energy group,Gold,Mixed,4,36,$853.76 ,Lodging,SLA Breached
+105,TMC-BK-10104,8,Flight-International,Offline Walk-In,"$2,763.39 ",$220.23 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,0.5,"$2,763.39 ",Flight,Within SLA
+106,TMC-BK-10105,3,Flight-International,Online Portal,"$2,229.22 ",$328.31 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,18,"$2,229.22 ",Flight,SLA Breached
+107,TMC-BK-10106,6,Flight-Domestic,Email Request,"$3,046.43 ",$247.00 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,18,"$3,046.43 ",Flight,SLA Breached
+108,TMC-BK-10107,7,Flight-Domestic,Online Cbt,"$3,102.74 ",$26.75 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,1,"$3,102.74 ",Flight,Within SLA
+109,TMC-BK-10108,4,Flight-Domestic,Email Request,"$2,617.49 ",$421.24 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,5,"$2,617.49 ",Flight,SLA Breached
+110,TMC-BK-10109,5,Flight-Domestic,Offline,"$2,837.49 ",$317.00 ,CORP-1004,omega energy group,Gold,Mixed,4,36,"$2,837.49 ",Flight,SLA Breached
+111,TMC-BK-10110,3,Flight-Domestic,Online Portal,"$1,043.80 ",$277.57 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,3,"$1,043.80 ",Flight,SLA Breached
+112,TMC-BK-10111,8,Flight-International,Online Portal,"$3,071.76 ",$62.01 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,36,"$3,071.76 ",Flight,SLA Breached
+113,TMC-BK-10112,2,Flight-Domestic,Online Cbt,"$2,885.57 ",$223.42 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,36,"$2,885.57 ",Flight,SLA Breached
+114,TMC-BK-10113,7,Flight-International,Online Cbt,"$2,814.41 ",$44.61 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,5,"$2,814.41 ",Flight,SLA Breached
+115,TMC-BK-10114,6,Flight-International,Email Request,$796.98 ,$246.25 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,36,$796.98 ,Flight,SLA Breached
+116,TMC-BK-10115,1,Hotel-Booking,Email Request,"$3,389.08 ",$305.07 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,18,"$3,389.08 ",Lodging,SLA Breached
+117,TMC-BK-10116,4,Flight-International,Offline Walk-In,"$1,488.92 ",$157.80 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,0.5,"$1,488.92 ",Flight,Within SLA
+118,TMC-BK-10117,3,Flight-Domestic,Email Request,"$3,296.44 ",$270.46 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,18,"$3,296.44 ",Flight,SLA Breached
+119,TMC-BK-10118,3,Flight-Domestic,Email Request,"$3,400.84 ",$157.66 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,48,"$3,400.84 ",Flight,SLA Breached
+120,TMC-BK-10119,8,Flight-Domestic,Offline,"$1,039.31 ",$404.16 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,18,"$1,039.31 ",Flight,Within SLA
+121,TMC-BK-10120,3,Hotel-Booking,Online Portal,"$1,605.79 ",$161.37 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,36,"$1,605.79 ",Lodging,SLA Breached
+122,TMC-BK-10121,3,Flight-International,Email Request,"$2,180.80 ",$106.83 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,0.5,"$2,180.80 ",Flight,Within SLA
+123,TMC-BK-10122,3,Hotel-Booking,Offline Walk-In,"$2,081.57 ",$142.58 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,36,"$2,081.57 ",Lodging,SLA Breached
+124,TMC-BK-10123,8,Flight-Domestic,Email Request,$155.67 ,$160.64 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,18,$155.67 ,Flight,Within SLA
+125,TMC-BK-10124,6,Flight-Domestic,Offline,"$2,560.09 ",$212.47 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,18,"$2,560.09 ",Flight,SLA Breached
+126,TMC-BK-10125,1,Flight-Domestic,Online Cbt,"$1,370.14 ",$75.00 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,18,"$1,370.14 ",Flight,SLA Breached
+127,TMC-BK-10126,4,Flight-International,Offline,"$2,375.20 ",$88.46 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,0.5,"$2,375.20 ",Flight,Within SLA
+128,TMC-BK-10127,8,Flight-Domestic,Offline Walk-In,"$2,990.85 ",$141.30 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,48,"$2,990.85 ",Flight,SLA Breached
+129,TMC-BK-10128,4,Flight-Domestic,Online Cbt,"$1,186.10 ",$31.48 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,48,"$1,186.10 ",Flight,SLA Breached
+130,TMC-BK-10129,2,Hotel-Booking,Online Portal,"$1,140.44 ",$289.75 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,48,"$1,140.44 ",Lodging,SLA Breached
+131,TMC-BK-10130,5,Flight-International,Offline Walk-In,"$1,558.50 ",$243.48 ,CORP-1004,omega energy group,Gold,Mixed,4,1,"$1,558.50 ",Flight,Within SLA
+132,TMC-BK-10131,6,Flight-International,Offline Walk-In,"$3,174.40 ",$112.80 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,18,"$3,174.40 ",Flight,SLA Breached
+133,TMC-BK-10132,4,Hotel-Booking,Email Request,"$1,985.59 ",$173.89 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,48,"$1,985.59 ",Lodging,SLA Breached
+134,TMC-BK-10133,1,Flight-Domestic,Offline Walk-In,"$1,111.16 ",$160.36 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,3,"$1,111.16 ",Flight,SLA Breached
+135,TMC-BK-10134,4,Flight-International,Online Portal,"$2,343.26 ",$85.16 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,48,"$2,343.26 ",Flight,SLA Breached
+136,TMC-BK-10135,6,Flight-Domestic,Online Portal,$865.90 ,$324.35 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,0.5,$865.90 ,Flight,Within SLA
+137,TMC-BK-10136,7,Hotel-Booking,Online Portal,"$2,816.68 ",$145.39 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,18,"$2,816.68 ",Lodging,SLA Breached
+138,TMC-BK-10137,8,Flight-Domestic,Offline Walk-In,"$1,876.76 ",$129.05 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,1,"$1,876.76 ",Flight,Within SLA
+139,TMC-BK-10138,8,Flight-Domestic,Offline,"$2,891.72 ",$55.28 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,36,"$2,891.72 ",Flight,SLA Breached
+140,TMC-BK-10139,1,Flight-International,Offline Walk-In,$902.55 ,$285.64 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,36,$902.55 ,Flight,SLA Breached
+141,TMC-BK-10140,1,Flight-International,Email Request,$970.22 ,$168.96 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,36,$970.22 ,Flight,SLA Breached
+142,TMC-BK-10141,6,Hotel-Booking,Online Portal,$393.97 ,$213.55 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,48,$393.97 ,Lodging,SLA Breached
+143,TMC-BK-10142,2,Hotel-Booking,Email Request,$801.36 ,$80.28 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,1,$801.36 ,Lodging,Within SLA
+144,TMC-BK-10143,5,Hotel-Booking,Online Portal,$967.35 ,$225.06 ,CORP-1004,omega energy group,Gold,Mixed,4,18,$967.35 ,Lodging,SLA Breached
+145,TMC-BK-10144,5,Flight-Domestic,Email Request,"$2,665.73 ",$312.09 ,CORP-1004,omega energy group,Gold,Mixed,4,18,"$2,665.73 ",Flight,SLA Breached
+146,TMC-BK-10145,3,Flight-Domestic,Online Cbt,"$1,574.24 ",$70.02 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,18,"$1,574.24 ",Flight,SLA Breached
+147,TMC-BK-10146,7,Flight-International,Online Cbt,"$1,885.16 ",$47.86 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,48,"$1,885.16 ",Flight,SLA Breached
+148,TMC-BK-10147,7,Flight-Domestic,Online Portal,$984.81 ,$206.25 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,0.5,$984.81 ,Flight,Within SLA
+149,TMC-BK-10148,6,Flight-International,Email Request,"$2,834.75 ",$101.07 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,48,"$2,834.75 ",Flight,SLA Breached
+150,TMC-BK-10149,2,Flight-Domestic,Offline Walk-In,"$2,144.77 ",$278.35 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,1,"$2,144.77 ",Flight,Within SLA
+151,TMC-BK-10150,5,Hotel-Booking,Offline,"$2,202.39 ",$276.92 ,CORP-1004,omega energy group,Gold,Mixed,4,18,"$2,202.39 ",Lodging,SLA Breached
+152,TMC-BK-10151,7,Flight-International,Offline Walk-In,"$2,932.41 ",$380.37 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,18,"$2,932.41 ",Flight,SLA Breached
+153,TMC-BK-10152,4,Hotel-Booking,Offline Walk-In,"$2,641.25 ",$322.23 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,0.5,"$2,641.25 ",Lodging,Within SLA
+154,TMC-BK-10153,7,Hotel-Booking,Offline,$978.25 ,$286.93 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,0.5,$978.25 ,Lodging,Within SLA
+155,TMC-BK-10154,6,Hotel-Booking,Offline,"$1,896.35 ",$157.79 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,48,"$1,896.35 ",Lodging,SLA Breached
+156,TMC-BK-10155,6,Hotel-Booking,Email Request,$409.57 ,$372.41 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,0.5,$409.57 ,Lodging,Within SLA
+157,TMC-BK-10156,8,Flight-Domestic,Offline,"$1,221.03 ",$327.98 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,48,"$1,221.03 ",Flight,SLA Breached
+158,TMC-BK-10157,8,Flight-Domestic,Online Cbt,$924.73 ,$310.12 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,5,$924.73 ,Flight,Within SLA
+159,TMC-BK-10158,1,Hotel-Booking,Offline,$365.17 ,$251.73 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,48,$365.17 ,Lodging,SLA Breached
+160,TMC-BK-10159,3,Hotel-Booking,Offline Walk-In,"$1,542.84 ",$438.81 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,36,"$1,542.84 ",Lodging,SLA Breached
+161,TMC-BK-10160,8,Hotel-Booking,Online Portal,"$3,181.21 ",$346.19 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,18,"$3,181.21 ",Lodging,Within SLA
+162,TMC-BK-10161,3,Flight-Domestic,Online Cbt,"$3,020.05 ",$222.92 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,0.5,"$3,020.05 ",Flight,Within SLA
+163,TMC-BK-10162,4,Flight-Domestic,Offline,$169.75 ,$81.01 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,36,$169.75 ,Flight,SLA Breached
+164,TMC-BK-10163,2,Flight-International,Offline,"$3,009.05 ",$370.46 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,18,"$3,009.05 ",Flight,SLA Breached
+165,TMC-BK-10164,5,Flight-International,Online Portal,"$2,654.18 ",$415.87 ,CORP-1004,omega energy group,Gold,Mixed,4,18,"$2,654.18 ",Flight,SLA Breached
+166,TMC-BK-10165,4,Flight-International,Email Request,$888.80 ,$224.02 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,1,$888.80 ,Flight,Within SLA
+167,TMC-BK-10166,3,Flight-International,Offline Walk-In,$247.23 ,$218.62 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,18,$247.23 ,Flight,SLA Breached
+168,TMC-BK-10167,3,Flight-Domestic,Online Portal,"$1,504.46 ",$315.90 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,48,"$1,504.46 ",Flight,SLA Breached
+169,TMC-BK-10168,3,Flight-International,Email Request,$577.55 ,$326.84 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,18,$577.55 ,Flight,SLA Breached
+170,TMC-BK-10169,6,Hotel-Booking,Offline Walk-In,"$1,469.97 ",$222.79 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,18,"$1,469.97 ",Lodging,SLA Breached
+171,TMC-BK-10170,2,Flight-Domestic,Offline,"$2,303.21 ",$123.47 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,3,"$2,303.21 ",Flight,SLA Breached
+172,TMC-BK-10171,4,Hotel-Booking,Email Request,"$1,696.69 ",$120.11 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,1,"$1,696.69 ",Lodging,Within SLA
+173,TMC-BK-10172,7,Flight-Domestic,Online Portal,"$1,420.00 ",$390.97 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,5,"$1,420.00 ",Flight,SLA Breached
+174,TMC-BK-10173,6,Flight-Domestic,Online Cbt,"$2,700.12 ",$287.20 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,5,"$2,700.12 ",Flight,SLA Breached
+175,TMC-BK-10174,2,Hotel-Booking,Online Portal,"$2,936.95 ",$412.97 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,5,"$2,936.95 ",Lodging,SLA Breached
+176,TMC-BK-10175,8,Hotel-Booking,Online Portal,$214.93 ,$191.63 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,0.5,$214.93 ,Lodging,Within SLA
+177,TMC-BK-10176,8,Flight-Domestic,Online Cbt,"$1,322.37 ",$322.34 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,3,"$1,322.37 ",Flight,Within SLA
+178,TMC-BK-10177,8,Flight-International,Email Request,"$2,333.38 ",$307.70 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,18,"$2,333.38 ",Flight,Within SLA
+179,TMC-BK-10178,4,Flight-Domestic,Email Request,$817.86 ,$360.23 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,3,$817.86 ,Flight,Within SLA
+180,TMC-BK-10179,3,Flight-International,Online Portal,$660.48 ,$400.02 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,1,$660.48 ,Flight,Within SLA
+181,TMC-BK-10180,7,Flight-International,Online Portal,"$2,392.69 ",$217.65 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,18,"$2,392.69 ",Flight,SLA Breached
+182,TMC-BK-10181,1,Flight-International,Email Request,"$2,493.21 ",$37.86 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,18,"$2,493.21 ",Flight,SLA Breached
+183,TMC-BK-10182,4,Hotel-Booking,Online Cbt,"$2,184.28 ",$227.02 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,5,"$2,184.28 ",Lodging,SLA Breached
+184,TMC-BK-10183,1,Flight-International,Offline Walk-In,"$2,894.66 ",$174.36 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,5,"$2,894.66 ",Flight,SLA Breached
+185,TMC-BK-10184,3,Flight-International,Online Cbt,$236.02 ,$221.03 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,36,$236.02 ,Flight,SLA Breached
+186,TMC-BK-10185,3,Flight-International,Offline,"$3,359.88 ",$97.59 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,18,"$3,359.88 ",Flight,SLA Breached
+187,TMC-BK-10186,3,Flight-Domestic,Online Portal,$404.59 ,$351.38 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,48,$404.59 ,Flight,SLA Breached
+188,TMC-BK-10187,1,Flight-Domestic,Email Request,$491.37 ,$281.89 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,1,$491.37 ,Flight,Within SLA
+189,TMC-BK-10188,3,Flight-International,Online Cbt,"$2,161.38 ",$79.14 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,36,"$2,161.38 ",Flight,SLA Breached
+190,TMC-BK-10189,1,Hotel-Booking,Offline,"$3,445.88 ",$68.75 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,18,"$3,445.88 ",Lodging,SLA Breached
+191,TMC-BK-10190,3,Flight-Domestic,Offline,"$1,585.07 ",$372.46 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,18,"$1,585.07 ",Flight,SLA Breached
+192,TMC-BK-10191,5,Hotel-Booking,Online Portal,"$1,293.12 ",$363.62 ,CORP-1004,omega energy group,Gold,Mixed,4,5,"$1,293.12 ",Lodging,SLA Breached
+193,TMC-BK-10192,3,Flight-International,Offline Walk-In,$503.56 ,$163.49 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,0.5,$503.56 ,Flight,Within SLA
+194,TMC-BK-10193,7,Flight-International,Offline Walk-In,"$2,926.17 ",$301.02 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,36,"$2,926.17 ",Flight,SLA Breached
+195,TMC-BK-10194,1,Flight-International,Offline,"$2,608.21 ",$361.78 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,18,"$2,608.21 ",Flight,SLA Breached
+196,TMC-BK-10195,5,Flight-International,Online Cbt,"$2,857.47 ",$251.42 ,CORP-1004,omega energy group,Gold,Mixed,4,18,"$2,857.47 ",Flight,SLA Breached
+197,TMC-BK-10196,2,Flight-International,Offline,"$1,609.17 ",$195.35 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,3,"$1,609.17 ",Flight,SLA Breached
+198,TMC-BK-10197,4,Flight-Domestic,Online Portal,"$3,003.24 ",$200.71 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,18,"$3,003.24 ",Flight,SLA Breached
+199,TMC-BK-10198,8,Flight-International,Online Portal,"$3,103.46 ",$288.87 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,48,"$3,103.46 ",Flight,SLA Breached
+200,TMC-BK-10199,8,Flight-Domestic,Offline Walk-In,"$2,194.61 ",$257.88 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,36,"$2,194.61 ",Flight,SLA Breached
+201,TMC-BK-10200,8,Flight-Domestic,Offline,"$3,000.69 ",$438.90 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,36,"$3,000.69 ",Flight,SLA Breached
+202,TMC-BK-10201,3,Flight-Domestic,Email Request,"$2,822.74 ",$188.12 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,48,"$2,822.74 ",Flight,SLA Breached
+203,TMC-BK-10202,4,Flight-Domestic,Email Request,"$2,498.97 ",$169.80 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,0.5,"$2,498.97 ",Flight,Within SLA
+204,TMC-BK-10203,7,Flight-Domestic,Online Cbt,"$3,326.01 ",$370.91 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,18,"$3,326.01 ",Flight,SLA Breached
+205,TMC-BK-10204,3,Flight-Domestic,Online Cbt,"$2,562.25 ",$276.16 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,1,"$2,562.25 ",Flight,Within SLA
+206,TMC-BK-10205,3,Hotel-Booking,Offline Walk-In,"$2,463.54 ",$358.33 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,0.5,"$2,463.54 ",Lodging,Within SLA
+207,TMC-BK-10206,5,Flight-International,Online Portal,"$2,806.33 ",$210.03 ,CORP-1004,omega energy group,Gold,Mixed,4,1,"$2,806.33 ",Flight,Within SLA
+208,TMC-BK-10207,3,Flight-Domestic,Email Request,$892.35 ,$359.61 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,1,$892.35 ,Flight,Within SLA
+209,TMC-BK-10208,6,Flight-International,Email Request,"$2,098.21 ",$256.42 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,36,"$2,098.21 ",Flight,SLA Breached
+210,TMC-BK-10209,8,Flight-International,Email Request,"$1,575.44 ",$125.37 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,5,"$1,575.44 ",Flight,Within SLA
+211,TMC-BK-10210,2,Flight-International,Email Request,"$2,504.56 ",$306.61 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,18,"$2,504.56 ",Flight,SLA Breached
+212,TMC-BK-10211,4,Flight-Domestic,Offline Walk-In,$554.20 ,$58.11 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,5,$554.20 ,Flight,SLA Breached
+213,TMC-BK-10212,7,Flight-Domestic,Offline,"$1,945.14 ",$420.62 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,5,"$1,945.14 ",Flight,SLA Breached
+214,TMC-BK-10213,7,Flight-International,Email Request,$874.89 ,$269.03 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,18,$874.89 ,Flight,SLA Breached
+215,TMC-BK-10214,3,Hotel-Booking,Online Portal,"$3,421.63 ",$231.82 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,3,"$3,421.63 ",Lodging,SLA Breached
+216,TMC-BK-10215,2,Flight-Domestic,Email Request,$486.76 ,$276.67 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,48,$486.76 ,Flight,SLA Breached
+217,TMC-BK-10216,1,Flight-International,Online Cbt,$751.13 ,$221.74 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,3,$751.13 ,Flight,SLA Breached
+218,TMC-BK-10217,4,Flight-International,Online Portal,"$1,939.35 ",$260.91 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,18,"$1,939.35 ",Flight,SLA Breached
+219,TMC-BK-10218,7,Flight-Domestic,Offline,"$2,003.75 ",$374.36 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,5,"$2,003.75 ",Flight,SLA Breached
+220,TMC-BK-10219,3,Flight-Domestic,Email Request,"$3,059.35 ",$99.87 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,0.5,"$3,059.35 ",Flight,Within SLA
+221,TMC-BK-10220,2,Flight-International,Offline Walk-In,"$2,073.12 ",$431.25 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,0.5,"$2,073.12 ",Flight,Within SLA
+222,TMC-BK-10221,3,Flight-International,Offline Walk-In,$767.62 ,$54.58 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,36,$767.62 ,Flight,SLA Breached
+223,TMC-BK-10222,8,Hotel-Booking,Email Request,"$3,302.56 ",$71.22 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,0.5,"$3,302.56 ",Lodging,Within SLA
+224,TMC-BK-10223,1,Flight-International,Online Cbt,"$1,492.37 ",$370.98 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,3,"$1,492.37 ",Flight,SLA Breached
+225,TMC-BK-10224,2,Flight-Domestic,Offline Walk-In,"$2,258.64 ",$352.82 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,18,"$2,258.64 ",Flight,SLA Breached
+226,TMC-BK-10225,2,Flight-Domestic,Online Portal,$649.81 ,$186.04 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,36,$649.81 ,Flight,SLA Breached
+227,TMC-BK-10226,8,Flight-International,Online Cbt,"$3,479.63 ",$235.08 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,48,"$3,479.63 ",Flight,SLA Breached
+228,TMC-BK-10227,3,Hotel-Booking,Offline,"$2,710.89 ",$305.57 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,5,"$2,710.89 ",Lodging,SLA Breached
+229,TMC-BK-10228,1,Flight-International,Offline,$906.05 ,$63.48 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,36,$906.05 ,Flight,SLA Breached
+230,TMC-BK-10229,7,Flight-International,Offline Walk-In,"$1,633.12 ",$372.24 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,3,"$1,633.12 ",Flight,Within SLA
+231,TMC-BK-10230,7,Flight-Domestic,Online Cbt,"$1,173.02 ",$402.09 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,36,"$1,173.02 ",Flight,SLA Breached
+232,TMC-BK-10231,6,Hotel-Booking,Offline Walk-In,"$2,629.30 ",$408.88 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,1,"$2,629.30 ",Lodging,Within SLA
+233,TMC-BK-10232,1,Flight-International,Offline,$856.93 ,$295.36 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,48,$856.93 ,Flight,SLA Breached
+234,TMC-BK-10233,7,Hotel-Booking,Offline Walk-In,$732.28 ,$25.08 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,5,$732.28 ,Lodging,SLA Breached
+235,TMC-BK-10234,4,Hotel-Booking,Online Cbt,$158.96 ,$87.36 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,36,$158.96 ,Lodging,SLA Breached
+236,TMC-BK-10235,8,Flight-International,Email Request,"$1,125.72 ",$88.42 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,18,"$1,125.72 ",Flight,Within SLA
+237,TMC-BK-10236,7,Flight-Domestic,Offline,"$2,505.01 ",$250.78 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,1,"$2,505.01 ",Flight,Within SLA
+238,TMC-BK-10237,6,Flight-Domestic,Email Request,"$3,245.10 ",$190.74 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,3,"$3,245.10 ",Flight,SLA Breached
+239,TMC-BK-10238,2,Hotel-Booking,Online Cbt,"$2,364.96 ",$270.62 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,36,"$2,364.96 ",Lodging,SLA Breached
+240,TMC-BK-10239,7,Flight-Domestic,Offline,"$1,974.28 ",$108.16 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,18,"$1,974.28 ",Flight,SLA Breached
+241,TMC-BK-10240,3,Flight-Domestic,Offline Walk-In,"$2,919.21 ",$314.64 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,18,"$2,919.21 ",Flight,SLA Breached
+242,TMC-BK-10241,5,Flight-International,Offline Walk-In,$705.84 ,$159.55 ,CORP-1004,omega energy group,Gold,Mixed,4,3,$705.84 ,Flight,Within SLA
+243,TMC-BK-10242,8,Hotel-Booking,Offline Walk-In,"$2,056.84 ",$267.37 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,18,"$2,056.84 ",Lodging,Within SLA
+244,TMC-BK-10243,4,Hotel-Booking,Offline,"$2,457.07 ",$413.11 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,48,"$2,457.07 ",Lodging,SLA Breached
+245,TMC-BK-10244,2,Flight-International,Offline,"$1,826.58 ",$154.43 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,48,"$1,826.58 ",Flight,SLA Breached
+246,TMC-BK-10245,5,Hotel-Booking,Offline Walk-In,$283.53 ,$425.92 ,CORP-1004,omega energy group,Gold,Mixed,4,18,$283.53 ,Lodging,SLA Breached
+247,TMC-BK-10246,7,Hotel-Booking,Offline Walk-In,$988.73 ,$209.76 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,36,$988.73 ,Lodging,SLA Breached
+248,TMC-BK-10247,5,Hotel-Booking,Email Request,"$3,372.40 ",$442.60 ,CORP-1004,omega energy group,Gold,Mixed,4,18,"$3,372.40 ",Lodging,SLA Breached
+249,TMC-BK-10248,4,Flight-International,Offline,"$3,335.13 ",$171.31 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,0.5,"$3,335.13 ",Flight,Within SLA
+250,TMC-BK-10249,1,Flight-Domestic,Offline Walk-In,"$1,052.86 ",$62.95 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,1,"$1,052.86 ",Flight,Within SLA
+251,TMC-BK-10250,1,Flight-Domestic,Online Cbt,"$2,683.50 ",$28.45 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,18,"$2,683.50 ",Flight,SLA Breached
+252,TMC-BK-10251,2,Hotel-Booking,Offline Walk-In,"$3,218.84 ",$444.23 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,3,"$3,218.84 ",Lodging,SLA Breached
+253,TMC-BK-10252,1,Flight-Domestic,Offline,"$2,276.53 ",$196.78 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,3,"$2,276.53 ",Flight,SLA Breached
+254,TMC-BK-10253,7,Flight-International,Offline Walk-In,"$1,315.67 ",$79.21 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,0.5,"$1,315.67 ",Flight,Within SLA
+255,TMC-BK-10254,4,Flight-Domestic,Email Request,"$3,023.41 ",$150.03 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,0.5,"$3,023.41 ",Flight,Within SLA
+256,TMC-BK-10255,6,Flight-International,Online Portal,"$1,115.53 ",$181.92 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,48,"$1,115.53 ",Flight,SLA Breached
+257,TMC-BK-10256,7,Hotel-Booking,Offline,"$1,992.82 ",$258.28 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,18,"$1,992.82 ",Lodging,SLA Breached
+258,TMC-BK-10257,6,Flight-International,Offline,"$1,232.97 ",$47.58 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,18,"$1,232.97 ",Flight,SLA Breached
+259,TMC-BK-10258,2,Flight-International,Online Portal,"$1,873.90 ",$323.93 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,3,"$1,873.90 ",Flight,SLA Breached
+260,TMC-BK-10259,3,Flight-International,Offline Walk-In,"$1,967.69 ",$373.82 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,18,"$1,967.69 ",Flight,SLA Breached
+261,TMC-BK-10260,7,Hotel-Booking,Email Request,"$1,361.96 ",$177.68 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,18,"$1,361.96 ",Lodging,SLA Breached
+262,TMC-BK-10261,5,Flight-Domestic,Offline Walk-In,"$2,695.97 ",$391.03 ,CORP-1004,omega energy group,Gold,Mixed,4,3,"$2,695.97 ",Flight,Within SLA
+263,TMC-BK-10262,5,Flight-Domestic,Online Portal,"$3,257.70 ",$392.91 ,CORP-1004,omega energy group,Gold,Mixed,4,5,"$3,257.70 ",Flight,SLA Breached
+264,TMC-BK-10263,7,Flight-International,Email Request,$556.78 ,$124.98 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,5,$556.78 ,Flight,SLA Breached
+265,TMC-BK-10264,6,Flight-International,Online Cbt,$951.65 ,$323.44 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,36,$951.65 ,Flight,SLA Breached
+266,TMC-BK-10265,5,Flight-Domestic,Online Cbt,"$2,000.04 ",$192.56 ,CORP-1004,omega energy group,Gold,Mixed,4,18,"$2,000.04 ",Flight,SLA Breached
+267,TMC-BK-10266,7,Hotel-Booking,Email Request,"$3,474.06 ",$160.20 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,18,"$3,474.06 ",Lodging,SLA Breached
+268,TMC-BK-10267,4,Flight-International,Online Cbt,$543.51 ,$187.69 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,36,$543.51 ,Flight,SLA Breached
+269,TMC-BK-10268,7,Flight-Domestic,Email Request,"$2,550.62 ",$187.17 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,48,"$2,550.62 ",Flight,SLA Breached
+270,TMC-BK-10269,8,Flight-International,Offline Walk-In,"$2,946.33 ",$256.68 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,18,"$2,946.33 ",Flight,Within SLA
+271,TMC-BK-10270,3,Flight-International,Offline Walk-In,"$1,996.74 ",$306.56 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,0.5,"$1,996.74 ",Flight,Within SLA
+272,TMC-BK-10271,6,Flight-International,Online Portal,"$1,852.61 ",$226.82 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,48,"$1,852.61 ",Flight,SLA Breached
+273,TMC-BK-10272,8,Hotel-Booking,Offline Walk-In,"$1,075.43 ",$105.00 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,18,"$1,075.43 ",Lodging,Within SLA
+274,TMC-BK-10273,5,Hotel-Booking,Offline Walk-In,"$3,279.73 ",$188.45 ,CORP-1004,omega energy group,Gold,Mixed,4,5,"$3,279.73 ",Lodging,SLA Breached
+275,TMC-BK-10274,5,Flight-Domestic,Online Portal,"$1,097.51 ",$417.90 ,CORP-1004,omega energy group,Gold,Mixed,4,48,"$1,097.51 ",Flight,SLA Breached
+276,TMC-BK-10275,6,Hotel-Booking,Offline,"$3,496.32 ",$381.98 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,1,"$3,496.32 ",Lodging,Within SLA
+277,TMC-BK-10276,7,Hotel-Booking,Offline,"$1,954.24 ",$90.56 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,3,"$1,954.24 ",Lodging,Within SLA
+278,TMC-BK-10277,3,Flight-International,Email Request,"$1,970.49 ",$448.92 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,18,"$1,970.49 ",Flight,SLA Breached
+279,TMC-BK-10278,2,Flight-Domestic,Offline,$781.99 ,$309.78 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,5,$781.99 ,Flight,SLA Breached
+280,TMC-BK-10279,4,Flight-International,Offline,$932.43 ,$82.07 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,18,$932.43 ,Flight,SLA Breached
+281,TMC-BK-10280,8,Flight-International,Offline,"$2,644.76 ",$55.49 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,3,"$2,644.76 ",Flight,Within SLA
+282,TMC-BK-10281,3,Flight-International,Offline Walk-In,"$1,443.36 ",$31.68 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,48,"$1,443.36 ",Flight,SLA Breached
+283,TMC-BK-10282,2,Flight-Domestic,Offline,"$3,435.74 ",$331.57 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,18,"$3,435.74 ",Flight,SLA Breached
+284,TMC-BK-10283,4,Flight-International,Offline Walk-In,"$1,832.68 ",$231.85 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,36,"$1,832.68 ",Flight,SLA Breached
+285,TMC-BK-10284,7,Hotel-Booking,Offline Walk-In,"$3,078.54 ",$210.61 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,48,"$3,078.54 ",Lodging,SLA Breached
+286,TMC-BK-10285,6,Hotel-Booking,Online Portal,"$1,680.71 ",$445.84 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,18,"$1,680.71 ",Lodging,SLA Breached
+287,TMC-BK-10286,1,Flight-Domestic,Email Request,"$2,343.52 ",$60.98 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,18,"$2,343.52 ",Flight,SLA Breached
+288,TMC-BK-10287,3,Hotel-Booking,Online Portal,"$3,396.83 ",$297.95 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,36,"$3,396.83 ",Lodging,SLA Breached
+289,TMC-BK-10288,7,Flight-International,Online Cbt,"$2,326.95 ",$201.74 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,18,"$2,326.95 ",Flight,SLA Breached
+290,TMC-BK-10289,1,Flight-International,Offline Walk-In,"$3,028.80 ",$218.81 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,0.5,"$3,028.80 ",Flight,Within SLA
+291,TMC-BK-10290,2,Flight-Domestic,Offline,"$2,557.70 ",$360.29 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,48,"$2,557.70 ",Flight,SLA Breached
+292,TMC-BK-10291,3,Hotel-Booking,Offline,$270.26 ,$281.88 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,3,$270.26 ,Lodging,SLA Breached
+293,TMC-BK-10292,8,Flight-International,Online Cbt,"$2,264.39 ",$205.92 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,1,"$2,264.39 ",Flight,Within SLA
+294,TMC-BK-10293,7,Hotel-Booking,Email Request,"$2,651.67 ",$101.41 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,18,"$2,651.67 ",Lodging,SLA Breached
+295,TMC-BK-10294,2,Hotel-Booking,Offline Walk-In,"$2,273.06 ",$241.50 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,18,"$2,273.06 ",Lodging,SLA Breached
+296,TMC-BK-10295,2,Flight-International,Online Cbt,"$2,474.90 ",$259.62 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,18,"$2,474.90 ",Flight,SLA Breached
+297,TMC-BK-10296,5,Flight-International,Online Cbt,"$2,817.08 ",$216.27 ,CORP-1004,omega energy group,Gold,Mixed,4,36,"$2,817.08 ",Flight,SLA Breached
+298,TMC-BK-10297,4,Flight-Domestic,Online Cbt,$637.66 ,$176.01 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,3,$637.66 ,Flight,Within SLA
+299,TMC-BK-10298,6,Flight-International,Offline Walk-In,"$2,804.94 ",$103.96 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,18,"$2,804.94 ",Flight,SLA Breached
+300,TMC-BK-10299,2,Flight-Domestic,Offline Walk-In,"$3,067.31 ",$281.94 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,18,"$3,067.31 ",Flight,SLA Breached
+301,TMC-BK-10300,1,Hotel-Booking,Offline Walk-In,"$3,207.98 ",$270.62 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,48,"$3,207.98 ",Lodging,SLA Breached
+302,TMC-BK-10301,7,Hotel-Booking,Offline Walk-In,"$1,694.85 ",$384.89 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,18,"$1,694.85 ",Lodging,SLA Breached
+303,TMC-BK-10302,7,Flight-Domestic,Online Portal,$181.48 ,$125.62 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,36,$181.48 ,Flight,SLA Breached
+304,TMC-BK-10303,5,Flight-Domestic,Online Cbt,"$2,420.00 ",$238.23 ,CORP-1004,omega energy group,Gold,Mixed,4,18,"$2,420.00 ",Flight,SLA Breached
+305,TMC-BK-10304,1,Hotel-Booking,Online Portal,"$1,307.64 ",$199.61 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,18,"$1,307.64 ",Lodging,SLA Breached
+306,TMC-BK-10305,3,Flight-International,Email Request,"$1,571.43 ",$257.12 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,1,"$1,571.43 ",Flight,Within SLA
+307,TMC-BK-10306,8,Flight-International,Online Cbt,$817.38 ,$180.96 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,18,$817.38 ,Flight,Within SLA
+308,TMC-BK-10307,8,Hotel-Booking,Offline Walk-In,$944.64 ,$440.75 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,18,$944.64 ,Lodging,Within SLA
+309,TMC-BK-10308,1,Flight-Domestic,Offline Walk-In,"$3,475.52 ",$266.46 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,1,"$3,475.52 ",Flight,Within SLA
+310,TMC-BK-10309,4,Flight-Domestic,Offline Walk-In,"$2,355.07 ",$324.58 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,18,"$2,355.07 ",Flight,SLA Breached
+311,TMC-BK-10310,5,Hotel-Booking,Online Portal,"$2,447.43 ",$73.09 ,CORP-1004,omega energy group,Gold,Mixed,4,48,"$2,447.43 ",Lodging,SLA Breached
+312,TMC-BK-10311,4,Flight-International,Offline Walk-In,"$2,181.46 ",$229.65 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,3,"$2,181.46 ",Flight,Within SLA
+313,TMC-BK-10312,1,Flight-Domestic,Online Cbt,"$1,108.75 ",$318.46 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,18,"$1,108.75 ",Flight,SLA Breached
+314,TMC-BK-10313,4,Flight-International,Offline,"$1,330.28 ",$85.39 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,48,"$1,330.28 ",Flight,SLA Breached
+315,TMC-BK-10314,3,Flight-Domestic,Online Cbt,"$2,420.51 ",$335.80 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,36,"$2,420.51 ",Flight,SLA Breached
+316,TMC-BK-10315,1,Hotel-Booking,Email Request,"$2,958.43 ",$443.02 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,48,"$2,958.43 ",Lodging,SLA Breached
+317,TMC-BK-10316,6,Flight-Domestic,Online Cbt,"$2,315.24 ",$443.06 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,18,"$2,315.24 ",Flight,SLA Breached
+318,TMC-BK-10317,4,Hotel-Booking,Offline Walk-In,"$2,091.57 ",$356.02 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,36,"$2,091.57 ",Lodging,SLA Breached
+319,TMC-BK-10318,1,Flight-Domestic,Online Cbt,"$1,138.62 ",$222.60 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,48,"$1,138.62 ",Flight,SLA Breached
+320,TMC-BK-10319,3,Hotel-Booking,Online Cbt,$592.74 ,$58.25 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,18,$592.74 ,Lodging,SLA Breached
+321,TMC-BK-10320,2,Hotel-Booking,Online Portal,"$1,928.36 ",$403.21 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,18,"$1,928.36 ",Lodging,SLA Breached
+322,TMC-BK-10321,5,Flight-Domestic,Offline,"$1,010.85 ",$62.59 ,CORP-1004,omega energy group,Gold,Mixed,4,36,"$1,010.85 ",Flight,SLA Breached
+323,TMC-BK-10322,7,Flight-International,Online Cbt,"$2,851.74 ",$225.79 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,1,"$2,851.74 ",Flight,Within SLA
+324,TMC-BK-10323,6,Hotel-Booking,Email Request,$535.82 ,$340.22 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,3,$535.82 ,Lodging,SLA Breached
+325,TMC-BK-10324,7,Flight-International,Online Cbt,"$3,387.78 ",$433.17 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,3,"$3,387.78 ",Flight,Within SLA
+326,TMC-BK-10325,7,Hotel-Booking,Offline,"$3,432.81 ",$58.18 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,48,"$3,432.81 ",Lodging,SLA Breached
+327,TMC-BK-10326,4,Flight-Domestic,Offline,"$1,375.35 ",$294.32 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,18,"$1,375.35 ",Flight,SLA Breached
+328,TMC-BK-10327,1,Flight-Domestic,Offline,"$1,947.52 ",$364.19 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,18,"$1,947.52 ",Flight,SLA Breached
+329,TMC-BK-10328,2,Hotel-Booking,Offline,"$2,402.34 ",$157.81 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,18,"$2,402.34 ",Lodging,SLA Breached
+330,TMC-BK-10329,2,Flight-Domestic,Offline,"$3,299.98 ",$47.43 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,1,"$3,299.98 ",Flight,Within SLA
+331,TMC-BK-10330,5,Flight-Domestic,Online Portal,$933.30 ,$171.01 ,CORP-1004,omega energy group,Gold,Mixed,4,0.5,$933.30 ,Flight,Within SLA
+332,TMC-BK-10331,6,Hotel-Booking,Offline,"$3,112.19 ",$355.87 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,3,"$3,112.19 ",Lodging,SLA Breached
+333,TMC-BK-10332,6,Hotel-Booking,Online Portal,$891.58 ,$224.27 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,36,$891.58 ,Lodging,SLA Breached
+334,TMC-BK-10333,5,Flight-International,Online Cbt,"$2,909.92 ",$242.88 ,CORP-1004,omega energy group,Gold,Mixed,4,1,"$2,909.92 ",Flight,Within SLA
+335,TMC-BK-10334,4,Flight-International,Online Cbt,"$1,517.79 ",$224.42 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,0.5,"$1,517.79 ",Flight,Within SLA
+336,TMC-BK-10335,4,Hotel-Booking,Online Portal,"$3,319.98 ",$336.87 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,5,"$3,319.98 ",Lodging,SLA Breached
+337,TMC-BK-10336,8,Flight-International,Offline Walk-In,$475.59 ,$203.93 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,48,$475.59 ,Flight,SLA Breached
+338,TMC-BK-10337,7,Flight-Domestic,Offline,"$1,669.71 ",$433.25 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,0.5,"$1,669.71 ",Flight,Within SLA
+339,TMC-BK-10338,1,Flight-Domestic,Offline,"$3,319.01 ",$364.24 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,18,"$3,319.01 ",Flight,SLA Breached
+340,TMC-BK-10339,5,Flight-Domestic,Online Cbt,$667.65 ,$147.91 ,CORP-1004,omega energy group,Gold,Mixed,4,18,$667.65 ,Flight,SLA Breached
+341,TMC-BK-10340,3,Hotel-Booking,Online Portal,"$1,789.31 ",$40.01 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,18,"$1,789.31 ",Lodging,SLA Breached
+342,TMC-BK-10341,7,Flight-Domestic,Offline,$259.60 ,$417.22 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,1,$259.60 ,Flight,Within SLA
+343,TMC-BK-10342,2,Flight-Domestic,Online Cbt,"$3,334.36 ",$343.51 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,18,"$3,334.36 ",Flight,SLA Breached
+344,TMC-BK-10343,2,Flight-International,Offline,"$2,447.03 ",$333.96 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,18,"$2,447.03 ",Flight,SLA Breached
+345,TMC-BK-10344,5,Hotel-Booking,Online Portal,"$1,351.56 ",$264.58 ,CORP-1004,omega energy group,Gold,Mixed,4,36,"$1,351.56 ",Lodging,SLA Breached
+346,TMC-BK-10345,6,Hotel-Booking,Offline Walk-In,$559.24 ,$51.10 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,1,$559.24 ,Lodging,Within SLA
+347,TMC-BK-10346,2,Flight-Domestic,Email Request,"$2,370.28 ",$226.09 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,48,"$2,370.28 ",Flight,SLA Breached
+348,TMC-BK-10347,5,Hotel-Booking,Online Cbt,$221.55 ,$96.86 ,CORP-1004,omega energy group,Gold,Mixed,4,18,$221.55 ,Lodging,SLA Breached
+349,TMC-BK-10348,5,Flight-International,Online Cbt,$571.85 ,$46.94 ,CORP-1004,omega energy group,Gold,Mixed,4,18,$571.85 ,Flight,SLA Breached
+350,TMC-BK-10349,8,Flight-International,Email Request,"$2,713.28 ",$445.91 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,1,"$2,713.28 ",Flight,Within SLA
+351,TMC-BK-10350,7,Hotel-Booking,Email Request,"$3,063.48 ",$368.78 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,18,"$3,063.48 ",Lodging,SLA Breached
+352,TMC-BK-10351,8,Flight-Domestic,Online Cbt,"$3,166.78 ",$290.33 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,48,"$3,166.78 ",Flight,SLA Breached
+353,TMC-BK-10352,4,Hotel-Booking,Offline Walk-In,"$3,025.66 ",$146.90 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,18,"$3,025.66 ",Lodging,SLA Breached
+354,TMC-BK-10353,6,Flight-International,Online Cbt,$585.47 ,$60.07 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,0.5,$585.47 ,Flight,Within SLA
+355,TMC-BK-10354,8,Flight-Domestic,Email Request,"$2,364.54 ",$239.88 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,18,"$2,364.54 ",Flight,Within SLA
+356,TMC-BK-10355,8,Hotel-Booking,Offline,$199.78 ,$386.86 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,5,$199.78 ,Lodging,Within SLA
+357,TMC-BK-10356,1,Flight-International,Online Portal,"$1,234.63 ",$143.09 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,0.5,"$1,234.63 ",Flight,Within SLA
+358,TMC-BK-10357,8,Hotel-Booking,Offline,"$2,634.76 ",$81.33 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,36,"$2,634.76 ",Lodging,SLA Breached
+359,TMC-BK-10358,2,Hotel-Booking,Offline Walk-In,"$1,745.42 ",$144.41 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,18,"$1,745.42 ",Lodging,SLA Breached
+360,TMC-BK-10359,5,Flight-Domestic,Online Cbt,$515.33 ,$389.59 ,CORP-1004,omega energy group,Gold,Mixed,4,18,$515.33 ,Flight,SLA Breached
+361,TMC-BK-10360,2,Flight-International,Online Cbt,$295.27 ,$31.04 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,36,$295.27 ,Flight,SLA Breached
+362,TMC-BK-10361,7,Hotel-Booking,Online Portal,"$1,896.86 ",$72.41 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,1,"$1,896.86 ",Lodging,Within SLA
+363,TMC-BK-10362,4,Hotel-Booking,Offline,$353.77 ,$99.21 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,48,$353.77 ,Lodging,SLA Breached
+364,TMC-BK-10363,4,Flight-Domestic,Online Portal,"$2,448.43 ",$276.50 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,5,"$2,448.43 ",Flight,SLA Breached
+365,TMC-BK-10364,6,Hotel-Booking,Offline Walk-In,$396.19 ,$89.23 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,3,$396.19 ,Lodging,SLA Breached
+366,TMC-BK-10365,7,Flight-International,Offline,"$2,187.80 ",$214.83 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,18,"$2,187.80 ",Flight,SLA Breached
+367,TMC-BK-10366,6,Hotel-Booking,Offline,"$1,071.30 ",$368.33 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,18,"$1,071.30 ",Lodging,SLA Breached
+368,TMC-BK-10367,1,Flight-Domestic,Offline Walk-In,"$1,239.37 ",$136.03 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,48,"$1,239.37 ",Flight,SLA Breached
+369,TMC-BK-10368,5,Flight-Domestic,Online Cbt,"$1,669.95 ",$322.83 ,CORP-1004,omega energy group,Gold,Mixed,4,3,"$1,669.95 ",Flight,Within SLA
+370,TMC-BK-10369,4,Flight-Domestic,Online Cbt,"$2,500.96 ",$231.09 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,18,"$2,500.96 ",Flight,SLA Breached
+371,TMC-BK-10370,5,Hotel-Booking,Email Request,"$2,726.03 ",$364.73 ,CORP-1004,omega energy group,Gold,Mixed,4,48,"$2,726.03 ",Lodging,SLA Breached
+372,TMC-BK-10371,2,Flight-Domestic,Online Cbt,"$1,662.71 ",$391.36 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,48,"$1,662.71 ",Flight,SLA Breached
+373,TMC-BK-10372,7,Flight-International,Online Portal,"$1,669.22 ",$170.71 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,48,"$1,669.22 ",Flight,SLA Breached
+374,TMC-BK-10373,6,Flight-International,Offline Walk-In,"$1,579.66 ",$60.87 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,18,"$1,579.66 ",Flight,SLA Breached
+375,TMC-BK-10374,2,Hotel-Booking,Online Cbt,$661.34 ,$86.65 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,3,$661.34 ,Lodging,SLA Breached
+376,TMC-BK-10375,3,Hotel-Booking,Offline,"$2,936.44 ",$421.93 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,36,"$2,936.44 ",Lodging,SLA Breached
+377,TMC-BK-10376,8,Flight-International,Offline Walk-In,$473.49 ,$90.51 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,18,$473.49 ,Flight,Within SLA
+378,TMC-BK-10377,6,Flight-International,Online Cbt,"$2,013.84 ",$235.78 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,3,"$2,013.84 ",Flight,SLA Breached
+379,TMC-BK-10378,6,Flight-International,Online Portal,"$1,254.31 ",$447.27 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,18,"$1,254.31 ",Flight,SLA Breached
+380,TMC-BK-10379,4,Flight-International,Email Request,"$1,334.55 ",$352.41 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,1,"$1,334.55 ",Flight,Within SLA
+381,TMC-BK-10380,5,Flight-International,Email Request,"$3,058.11 ",$126.13 ,CORP-1004,omega energy group,Gold,Mixed,4,1,"$3,058.11 ",Flight,Within SLA
+382,TMC-BK-10381,3,Flight-International,Offline Walk-In,"$2,161.37 ",$212.08 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,48,"$2,161.37 ",Flight,SLA Breached
+383,TMC-BK-10382,4,Flight-International,Online Portal,$862.67 ,$295.97 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,1,$862.67 ,Flight,Within SLA
+384,TMC-BK-10383,8,Flight-Domestic,Online Portal,$512.53 ,$114.61 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,18,$512.53 ,Flight,Within SLA
+385,TMC-BK-10384,4,Flight-International,Online Portal,"$2,704.73 ",$337.10 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,5,"$2,704.73 ",Flight,SLA Breached
+386,TMC-BK-10385,4,Flight-International,Online Cbt,"$2,981.27 ",$171.66 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,36,"$2,981.27 ",Flight,SLA Breached
+387,TMC-BK-10386,4,Flight-International,Email Request,"$2,205.47 ",$297.96 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,36,"$2,205.47 ",Flight,SLA Breached
+388,TMC-BK-10387,5,Hotel-Booking,Online Portal,"$3,262.43 ",$346.08 ,CORP-1004,omega energy group,Gold,Mixed,4,0.5,"$3,262.43 ",Lodging,Within SLA
+389,TMC-BK-10388,4,Hotel-Booking,Offline,$754.39 ,$74.30 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,48,$754.39 ,Lodging,SLA Breached
+390,TMC-BK-10389,4,Flight-Domestic,Online Cbt,"$1,288.41 ",$96.23 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,18,"$1,288.41 ",Flight,SLA Breached
+391,TMC-BK-10390,4,Hotel-Booking,Offline,"$3,064.04 ",$194.47 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,18,"$3,064.04 ",Lodging,SLA Breached
+392,TMC-BK-10391,4,Flight-Domestic,Offline,$625.28 ,$153.08 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,5,$625.28 ,Flight,SLA Breached
+393,TMC-BK-10392,6,Hotel-Booking,Offline Walk-In,"$2,649.47 ",$342.11 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,36,"$2,649.47 ",Lodging,SLA Breached
+394,TMC-BK-10393,3,Hotel-Booking,Online Cbt,"$1,292.00 ",$344.78 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,18,"$1,292.00 ",Lodging,SLA Breached
+395,TMC-BK-10394,2,Hotel-Booking,Offline,"$2,752.40 ",$251.32 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,5,"$2,752.40 ",Lodging,SLA Breached
+396,TMC-BK-10395,2,Hotel-Booking,Online Cbt,$326.24 ,$186.42 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,3,$326.24 ,Lodging,SLA Breached
+397,TMC-BK-10396,2,Flight-Domestic,Online Portal,"$2,407.80 ",$324.88 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,3,"$2,407.80 ",Flight,SLA Breached
+398,TMC-BK-10397,8,Flight-International,Offline Walk-In,"$1,776.97 ",$226.70 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,3,"$1,776.97 ",Flight,Within SLA
+399,TMC-BK-10398,1,Flight-Domestic,Email Request,"$2,679.06 ",$86.69 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,18,"$2,679.06 ",Flight,SLA Breached
+400,TMC-BK-10399,1,Flight-International,Offline,"$1,590.21 ",$394.87 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,48,"$1,590.21 ",Flight,SLA Breached
+401,TMC-BK-10400,8,Hotel-Booking,Offline Walk-In,"$1,780.22 ",$30.04 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,48,"$1,780.22 ",Lodging,SLA Breached
+402,TMC-BK-10401,6,Hotel-Booking,Offline Walk-In,"$1,474.13 ",$419.07 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,5,"$1,474.13 ",Lodging,SLA Breached
+403,TMC-BK-10402,6,Flight-International,Offline Walk-In,"$1,159.75 ",$215.75 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,3,"$1,159.75 ",Flight,SLA Breached
+404,TMC-BK-10403,8,Flight-International,Offline Walk-In,"$1,005.99 ",$313.36 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,3,"$1,005.99 ",Flight,Within SLA
+405,TMC-BK-10404,5,Flight-International,Online Portal,"$2,652.50 ",$433.75 ,CORP-1004,omega energy group,Gold,Mixed,4,48,"$2,652.50 ",Flight,SLA Breached
+406,TMC-BK-10405,8,Hotel-Booking,Online Cbt,"$2,507.30 ",$315.22 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,5,"$2,507.30 ",Lodging,Within SLA
+407,TMC-BK-10406,3,Flight-Domestic,Email Request,"$2,850.77 ",$42.43 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,1,"$2,850.77 ",Flight,Within SLA
+408,TMC-BK-10407,5,Flight-International,Email Request,"$3,036.91 ",$415.03 ,CORP-1004,omega energy group,Gold,Mixed,4,0.5,"$3,036.91 ",Flight,Within SLA
+409,TMC-BK-10408,7,Flight-Domestic,Online Cbt,$212.78 ,$295.91 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,3,$212.78 ,Flight,Within SLA
+410,TMC-BK-10409,4,Hotel-Booking,Email Request,"$2,078.79 ",$431.38 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,18,"$2,078.79 ",Lodging,SLA Breached
+411,TMC-BK-10410,3,Flight-International,Offline Walk-In,"$1,549.27 ",$208.51 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,5,"$1,549.27 ",Flight,SLA Breached
+412,TMC-BK-10411,1,Flight-Domestic,Online Portal,$219.87 ,$415.17 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,36,$219.87 ,Flight,SLA Breached
+413,TMC-BK-10412,7,Hotel-Booking,Offline Walk-In,"$2,220.72 ",$389.80 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,1,"$2,220.72 ",Lodging,Within SLA
+414,TMC-BK-10413,8,Hotel-Booking,Offline Walk-In,$445.24 ,$167.36 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,1,$445.24 ,Lodging,Within SLA
+415,TMC-BK-10414,1,Flight-Domestic,Online Portal,"$2,122.72 ",$138.51 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,1,"$2,122.72 ",Flight,Within SLA
+416,TMC-BK-10415,6,Flight-Domestic,Offline,"$1,189.42 ",$66.77 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,36,"$1,189.42 ",Flight,SLA Breached
+417,TMC-BK-10416,7,Hotel-Booking,Email Request,$713.24 ,$303.10 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,36,$713.24 ,Lodging,SLA Breached
+418,TMC-BK-10417,3,Flight-International,Online Portal,"$1,858.34 ",$191.24 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,5,"$1,858.34 ",Flight,SLA Breached
+419,TMC-BK-10418,8,Hotel-Booking,Online Cbt,"$2,586.72 ",$353.59 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,1,"$2,586.72 ",Lodging,Within SLA
+420,TMC-BK-10419,2,Flight-Domestic,Online Cbt,$941.50 ,$343.36 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,36,$941.50 ,Flight,SLA Breached
+421,TMC-BK-10420,8,Hotel-Booking,Online Cbt,$810.86 ,$337.08 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,0.5,$810.86 ,Lodging,Within SLA
+422,TMC-BK-10421,6,Flight-International,Offline,"$2,345.96 ",$275.21 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,0.5,"$2,345.96 ",Flight,Within SLA
+423,TMC-BK-10422,1,Hotel-Booking,Online Portal,"$1,805.29 ",$107.84 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,3,"$1,805.29 ",Lodging,SLA Breached
+424,TMC-BK-10423,1,Flight-International,Offline,"$1,653.83 ",$168.40 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,1,"$1,653.83 ",Flight,Within SLA
+425,TMC-BK-10424,4,Flight-Domestic,Online Cbt,"$2,278.25 ",$318.37 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,18,"$2,278.25 ",Flight,SLA Breached
+426,TMC-BK-10425,7,Flight-International,Offline Walk-In,"$2,251.18 ",$101.46 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,18,"$2,251.18 ",Flight,SLA Breached
+427,TMC-BK-10426,2,Flight-International,Offline Walk-In,"$1,631.40 ",$257.74 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,0.5,"$1,631.40 ",Flight,Within SLA
+428,TMC-BK-10427,6,Hotel-Booking,Offline,$338.18 ,$310.94 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,18,$338.18 ,Lodging,SLA Breached
+429,TMC-BK-10428,6,Flight-International,Online Cbt,"$1,663.91 ",$378.47 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,3,"$1,663.91 ",Flight,SLA Breached
+430,TMC-BK-10429,5,Flight-International,Online Cbt,"$2,936.18 ",$30.08 ,CORP-1004,omega energy group,Gold,Mixed,4,0.5,"$2,936.18 ",Flight,Within SLA
+431,TMC-BK-10430,3,Hotel-Booking,Online Cbt,"$3,045.24 ",$66.52 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,36,"$3,045.24 ",Lodging,SLA Breached
+432,TMC-BK-10431,5,Flight-International,Online Cbt,"$1,848.68 ",$69.16 ,CORP-1004,omega energy group,Gold,Mixed,4,18,"$1,848.68 ",Flight,SLA Breached
+433,TMC-BK-10432,4,Hotel-Booking,Online Portal,"$2,802.59 ",$214.53 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,5,"$2,802.59 ",Lodging,SLA Breached
+434,TMC-BK-10433,5,Flight-Domestic,Offline,"$2,862.88 ",$118.25 ,CORP-1004,omega energy group,Gold,Mixed,4,5,"$2,862.88 ",Flight,SLA Breached
+435,TMC-BK-10434,8,Flight-International,Offline,"$1,743.36 ",$145.40 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,36,"$1,743.36 ",Flight,SLA Breached
+436,TMC-BK-10435,6,Flight-International,Online Portal,$496.73 ,$107.06 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,18,$496.73 ,Flight,SLA Breached
+437,TMC-BK-10436,6,Hotel-Booking,Offline Walk-In,"$2,542.96 ",$35.07 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,5,"$2,542.96 ",Lodging,SLA Breached
+438,TMC-BK-10437,3,Hotel-Booking,Offline,$979.94 ,$64.08 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,5,$979.94 ,Lodging,SLA Breached
+439,TMC-BK-10438,8,Flight-International,Email Request,"$1,901.21 ",$423.86 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,36,"$1,901.21 ",Flight,SLA Breached
+440,TMC-BK-10439,7,Hotel-Booking,Offline,"$1,097.69 ",$304.06 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,3,"$1,097.69 ",Lodging,Within SLA
+441,TMC-BK-10440,4,Hotel-Booking,Offline,"$2,152.92 ",$380.07 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,36,"$2,152.92 ",Lodging,SLA Breached
+442,TMC-BK-10441,7,Flight-International,Offline Walk-In,$370.80 ,$428.96 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,48,$370.80 ,Flight,SLA Breached
+443,TMC-BK-10442,6,Hotel-Booking,Online Portal,"$2,422.57 ",$296.19 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,1,"$2,422.57 ",Lodging,Within SLA
+444,TMC-BK-10443,6,Hotel-Booking,Offline Walk-In,"$2,349.49 ",$325.93 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,48,"$2,349.49 ",Lodging,SLA Breached
+445,TMC-BK-10444,7,Hotel-Booking,Offline Walk-In,"$1,266.76 ",$75.99 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,1,"$1,266.76 ",Lodging,Within SLA
+446,TMC-BK-10445,5,Flight-Domestic,Online Portal,"$1,321.90 ",$388.99 ,CORP-1004,omega energy group,Gold,Mixed,4,5,"$1,321.90 ",Flight,SLA Breached
+447,TMC-BK-10446,8,Hotel-Booking,Email Request,"$1,463.06 ",$80.21 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,0.5,"$1,463.06 ",Lodging,Within SLA
+448,TMC-BK-10447,3,Flight-International,Online Portal,"$1,187.10 ",$303.97 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,18,"$1,187.10 ",Flight,SLA Breached
+449,TMC-BK-10448,3,Hotel-Booking,Offline Walk-In,"$2,874.17 ",$407.46 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,18,"$2,874.17 ",Lodging,SLA Breached
+450,TMC-BK-10449,4,Hotel-Booking,Online Portal,"$2,624.90 ",$265.58 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,36,"$2,624.90 ",Lodging,SLA Breached
+451,TMC-BK-10450,2,Flight-Domestic,Offline,"$2,314.18 ",$436.05 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,1,"$2,314.18 ",Flight,Within SLA
+452,TMC-BK-10451,5,Hotel-Booking,Offline,"$1,364.70 ",$405.80 ,CORP-1004,omega energy group,Gold,Mixed,4,3,"$1,364.70 ",Lodging,Within SLA
+453,TMC-BK-10452,4,Flight-Domestic,Email Request,"$3,324.69 ",$320.65 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,3,"$3,324.69 ",Flight,Within SLA
+454,TMC-BK-10453,7,Hotel-Booking,Email Request,$610.84 ,$132.67 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,18,$610.84 ,Lodging,SLA Breached
+455,TMC-BK-10454,7,Hotel-Booking,Online Portal,"$2,978.84 ",$223.46 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,48,"$2,978.84 ",Lodging,SLA Breached
+456,TMC-BK-10455,4,Flight-Domestic,Online Portal,"$2,732.43 ",$422.88 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,1,"$2,732.43 ",Flight,Within SLA
+457,TMC-BK-10456,3,Flight-International,Online Portal,$276.45 ,$296.48 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,48,$276.45 ,Flight,SLA Breached
+458,TMC-BK-10457,3,Flight-International,Online Cbt,$589.01 ,$417.15 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,36,$589.01 ,Flight,SLA Breached
+459,TMC-BK-10458,8,Flight-International,Offline Walk-In,"$2,935.01 ",$142.46 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,18,"$2,935.01 ",Flight,Within SLA
+460,TMC-BK-10459,1,Hotel-Booking,Offline Walk-In,$704.56 ,$206.47 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,18,$704.56 ,Lodging,SLA Breached
+461,TMC-BK-10460,3,Flight-Domestic,Email Request,"$2,415.82 ",$408.94 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,18,"$2,415.82 ",Flight,SLA Breached
+462,TMC-BK-10461,7,Hotel-Booking,Offline,"$1,104.51 ",$352.20 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,1,"$1,104.51 ",Lodging,Within SLA
+463,TMC-BK-10462,8,Flight-Domestic,Offline,"$1,938.94 ",$162.45 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,5,"$1,938.94 ",Flight,Within SLA
+464,TMC-BK-10463,3,Hotel-Booking,Offline,"$1,721.20 ",$93.84 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,3,"$1,721.20 ",Lodging,SLA Breached
+465,TMC-BK-10464,6,Flight-International,Offline,"$3,322.89 ",$56.45 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,18,"$3,322.89 ",Flight,SLA Breached
+466,TMC-BK-10465,8,Hotel-Booking,Offline Walk-In,"$1,093.94 ",$355.27 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,48,"$1,093.94 ",Lodging,SLA Breached
+467,TMC-BK-10466,5,Hotel-Booking,Online Cbt,"$3,387.00 ",$187.69 ,CORP-1004,omega energy group,Gold,Mixed,4,18,"$3,387.00 ",Lodging,SLA Breached
+468,TMC-BK-10467,5,Flight-Domestic,Offline,$613.64 ,$166.38 ,CORP-1004,omega energy group,Gold,Mixed,4,1,$613.64 ,Flight,Within SLA
+469,TMC-BK-10468,1,Flight-Domestic,Email Request,"$3,078.29 ",$50.52 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,48,"$3,078.29 ",Flight,SLA Breached
+470,TMC-BK-10469,7,Flight-Domestic,Online Portal,"$2,983.74 ",$431.13 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,48,"$2,983.74 ",Flight,SLA Breached
+471,TMC-BK-10470,2,Hotel-Booking,Online Portal,"$2,706.44 ",$137.48 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,18,"$2,706.44 ",Lodging,SLA Breached
+472,TMC-BK-10471,3,Flight-Domestic,Email Request,$643.62 ,$212.24 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,0.5,$643.62 ,Flight,Within SLA
+473,TMC-BK-10472,1,Flight-Domestic,Email Request,$893.83 ,$233.98 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,18,$893.83 ,Flight,SLA Breached
+474,TMC-BK-10473,4,Flight-Domestic,Email Request,$239.35 ,$419.65 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,18,$239.35 ,Flight,SLA Breached
+475,TMC-BK-10474,5,Hotel-Booking,Online Cbt,"$1,831.72 ",$284.38 ,CORP-1004,omega energy group,Gold,Mixed,4,48,"$1,831.72 ",Lodging,SLA Breached
+476,TMC-BK-10475,8,Flight-Domestic,Online Portal,"$1,405.96 ",$100.84 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,18,"$1,405.96 ",Flight,Within SLA
+477,TMC-BK-10476,2,Hotel-Booking,Online Cbt,"$3,268.27 ",$234.12 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,0.5,"$3,268.27 ",Lodging,Within SLA
+478,TMC-BK-10477,8,Flight-Domestic,Offline,"$2,801.13 ",$86.15 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,0.5,"$2,801.13 ",Flight,Within SLA
+479,TMC-BK-10478,6,Hotel-Booking,Online Portal,"$1,111.05 ",$351.70 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,36,"$1,111.05 ",Lodging,SLA Breached
+480,TMC-BK-10479,5,Flight-International,Email Request,$614.96 ,$117.81 ,CORP-1004,omega energy group,Gold,Mixed,4,3,$614.96 ,Flight,Within SLA
+481,TMC-BK-10480,6,Hotel-Booking,Online Cbt,$167.59 ,$298.42 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,36,$167.59 ,Lodging,SLA Breached
+482,TMC-BK-10481,6,Hotel-Booking,Offline Walk-In,"$1,007.35 ",$412.86 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,3,"$1,007.35 ",Lodging,SLA Breached
+483,TMC-BK-10482,5,Flight-International,Online Portal,"$2,586.24 ",$329.05 ,CORP-1004,omega energy group,Gold,Mixed,4,5,"$2,586.24 ",Flight,SLA Breached
+484,TMC-BK-10483,6,Flight-Domestic,Email Request,"$1,115.14 ",$68.90 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,0.5,"$1,115.14 ",Flight,Within SLA
+485,TMC-BK-10484,1,Hotel-Booking,Email Request,"$1,556.42 ",$55.99 ,CORP-1000,Alpha Global Corp,Silver,Mixed,2,18,"$1,556.42 ",Lodging,SLA Breached
+486,TMC-BK-10485,7,Hotel-Booking,Offline,$521.37 ,$267.82 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,1,$521.37 ,Lodging,Within SLA
+487,TMC-BK-10486,2,Flight-Domestic,Online Cbt,$205.06 ,$131.50 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,18,$205.06 ,Flight,SLA Breached
+488,TMC-BK-10487,6,Flight-Domestic,Offline,$630.98 ,$214.50 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,3,$630.98 ,Flight,SLA Breached
+489,TMC-BK-10488,4,Flight-Domestic,Offline Walk-In,$955.89 ,$406.02 ,CORP-1003,Delta Tech Solutions,Silver,Mixed,4,18,$955.89 ,Flight,SLA Breached
+490,TMC-BK-10489,3,Flight-Domestic,Offline Walk-In,$436.81 ,$88.26 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,36,$436.81 ,Flight,SLA Breached
+491,TMC-BK-10490,5,Flight-Domestic,Offline,"$1,912.30 ",$297.14 ,CORP-1004,omega energy group,Gold,Mixed,4,3,"$1,912.30 ",Flight,Within SLA
+492,TMC-BK-10491,6,Flight-International,Online Portal,"$2,006.41 ",$421.48 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,18,"$2,006.41 ",Flight,SLA Breached
+493,TMC-BK-10492,6,Hotel-Booking,Online Portal,"$2,279.50 ",$307.46 ,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2,18,"$2,279.50 ",Lodging,SLA Breached
+494,TMC-BK-10493,8,Flight-International,Offline,$204.41 ,$138.24 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,0.5,$204.41 ,Flight,Within SLA
+495,TMC-BK-10494,8,Flight-Domestic,Offline,"$2,605.35 ",$322.52 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,1,"$2,605.35 ",Flight,Within SLA
+496,TMC-BK-10495,2,Hotel-Booking,Online Portal,"$2,612.88 ",$409.46 ,CORP-1001,beta logistics llc,Platinum,Online CBT,2,18,"$2,612.88 ",Lodging,SLA Breached
+497,TMC-BK-10496,7,Flight-International,Online Cbt,"$1,979.15 ",$269.22 ,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4,0.5,"$1,979.15 ",Flight,Within SLA
+498,TMC-BK-10497,5,Hotel-Booking,Offline,"$2,760.13 ",$244.04 ,CORP-1004,omega energy group,Gold,Mixed,4,18,"$2,760.13 ",Lodging,SLA Breached
+499,TMC-BK-10498,8,Flight-International,Email Request,"$2,266.32 ",$424.46 ,CORP-1007,Theta Ventures,Platinum,Offline Agent,24,3,"$2,266.32 ",Flight,Within SLA
+500,TMC-BK-10499,3,Flight-Domestic,Online Cbt,"$2,750.24 ",$233.54 ,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2,5,"$2,750.24 ",Flight,SLA Breached
