@@ -147,6 +147,72 @@ Mixed casing in company names and channel labels can split one client into sever
 
 This phase turns the three supporting tables into clean production files. Each one starts from a protected copy of the raw data, so the original audit state is never overwritten. The bookings table is handled later in the cleaning phase, because it needs client details from the relational model first.
 
+### phase 1: Travel Bookings Transactions Ledger
+
+```python
+print("PIPELINE PHASE 1: Processing Core Travel Bookings Transactions Ledger...\n")
+
+# 1. Deep-copy raw memory state to protect original audit integrity
+df_bookings_clean = df_bookings.copy()
+
+# A. Regex Currency Scrubbing: Wipe out $, commas, text tags, and padding spaces
+print("Stripping currency text flags from 'base_fare_usd'...")
+df_bookings_clean['base_fare_usd_clean'] = (
+    df_bookings_clean['base_fare_usd']
+    .astype(str)
+    .str.replace(r'[\$,\s]', '', regex=True)
+    .str.replace('USD', '', case=False)
+)
+df_bookings_clean['base_fare_usd_clean'] = pd.to_numeric(df_bookings_clean['base_fare_usd_clean'], errors='coerce')
+
+# B. Text Category Standardization: Enforce uniform Title Case across channels
+print("Standardizing 'booking_channel' text casing splits...")
+df_bookings_clean['booking_channel_clean'] = (
+    df_bookings_clean['booking_channel']
+    .astype(str)
+    .str.strip()
+    .str.lower()
+    .str.replace('online cbt', 'Online CBT', case=False)
+    .str.replace('online portal', 'Online Portal', case=False)
+    .str.replace('offline walk-in', 'Offline Walk-In', case=False)
+    .str.replace('offline', 'Offline Agent', case=False)
+    .str.replace('email request', 'Email Request', case=False)
+)
+
+# C. Uniform Chronological Parsing: Force mixed datetime string structures to UTC format
+print("Synchronizing mixed timestamp date profiles...")
+df_bookings_clean['request_timestamp_clean'] = pd.to_datetime(df_bookings_clean['request_timestamp'], errors='coerce', utc=True)
+df_bookings_clean['issuance_timestamp_clean'] = pd.to_datetime(df_bookings_clean['issuance_timestamp'], errors='coerce', utc=True)
+
+# D. Feature Engineering: Calculate Workflow Turnaround Time (TAT Velocity Durations)
+print("Calculating fulfillment turnaround times in hours (TAT)...")
+df_bookings_clean['processing_duration_hours'] = (
+    (df_bookings_clean['issuance_timestamp_clean'] - df_bookings_clean['request_timestamp_clean'])
+    .dt.total_seconds() / 3600.0
+)
+
+# E. Finalize Production Schema Layer: Drop contaminated columns and rename clean ones
+df_bookings_prod = df_bookings_clean.drop(
+    columns=['base_fare_usd', 'booking_channel', 'request_timestamp', 'issuance_timestamp']
+).rename(
+    columns={
+        'base_fare_usd_clean': 'base_fare_usd',
+        'booking_channel_clean': 'booking_channel',
+        'request_timestamp_clean': 'request_timestamp',
+        'issuance_timestamp_clean': 'issuance_timestamp'
+    }
+)
+
+# F. Production Migration Export: Preserving all headers seamlessly
+output_file = 'prod_travel_bookings.csv'
+df_bookings_prod.to_csv(output_file, index=False)
+
+print(f"\nSUCCESS: Production dataset successfully generated and saved as '{output_file}'!")
+print(f"Total Verified Clean Rows: {len(df_bookings_prod)}")
+
+# Display data verification matrix
+df_bookings_prod[['booking_id', 'booking_channel', 'base_fare_usd', 'processing_duration_hours']].head(5)
+
 ### Phase 2: Ancillary Operations Ledger
 
 ```python
@@ -304,7 +370,7 @@ df_cs_relational = pd.merge(
     how='inner'
 )
 
-print("🎉 SUCCESS: Core Star Schema Data Model successfully mapped in memory!")
+print(" SUCCESS: Core Star Schema Data Model successfully mapped in memory!")
 print(f"• Integrated Relational Bookings Table Structure Dimensions:  {df_bookings_relational.shape}")
 print(f"• Integrated Relational Ancillaries Table Structure Dimensions: {df_ancillaries_relational.shape}")
 print(f"• Integrated Relational Customer Service Table Dimensions:     {df_cs_relational.shape}")
@@ -319,6 +385,49 @@ Each link uses an inner merge, so a record only survives if it has a matching pa
 Cleaning now runs on the relational tables, so client details come along for the ride. Three fixes happen here: money stored as text becomes real numbers, text casing is standardized, and timestamps are parsed so processing time can be measured.
 
 ### Travel Bookings
+```python
+print("REINSTATING TAXES: Generating the Perfect Clutter-Free Production Dataset...")
+
+# 1. Reset completely using the original raw data source variables
+df_bookings_production = df_bookings_relational.copy()
+
+# A. Clean and format the base_fare_usd column in-place (No duplicate display columns)
+df_bookings_production['base_fare_usd'] = (
+    df_bookings_production['base_fare_usd']
+    .astype(str)
+    .str.replace(r'[\$,\s]', '', regex=True)
+    .str.replace('USD', '', case=False)
+)
+df_bookings_production['base_fare_usd'] = pd.to_numeric(df_bookings_production['base_fare_usd'], errors='coerce')
+df_bookings_production['base_fare_usd'] = df_bookings_production['base_fare_usd'].apply(lambda x: f"${x:,.2f}" if pd.notnull(x) else np.nan)
+
+# B. REINSTATE & CLEAN: Parse taxes_and_fees and format in-place with a uniform '$' symbol
+df_bookings_production['taxes_and_fees'] = pd.to_numeric(df_bookings_production['taxes_and_fees'], errors='coerce')
+df_bookings_production['taxes_and_fees'] = df_bookings_production['taxes_and_fees'].apply(lambda x: f"${x:,.2f}" if pd.notnull(x) else np.nan)
+
+# C. Normalize the booking channel text casing in-place
+df_bookings_production['booking_channel'] = df_bookings_production['booking_channel'].astype(str).str.strip().str.title()
+
+# D. Parse regional timestamp configurations and compute turnaround hours (TAT)
+df_bookings_production['request_timestamp'] = pd.to_datetime(df_bookings_production['request_timestamp'], errors='coerce', utc=True)
+df_bookings_production['issuance_timestamp'] = pd.to_datetime(df_bookings_production['issuance_timestamp'], errors='coerce', utc=True)
+df_bookings_production['processing_duration_hours'] = (
+    (df_bookings_production['issuance_timestamp'] - df_bookings_production['request_timestamp'])
+    .dt.total_seconds() / 3600.0
+)
+
+# E. Save clean production asset directly to your local computer folder directory
+output_file = 'prod_travel_bookings.csv'
+df_bookings_production.to_csv(output_file, index=False)
+
+print(f"\nSUCCESS: Reinstated asset generated and saved as '{output_file}'!")
+
+# Override Jupyter column restrictions to display absolutely everything horizontally
+pd.set_option('display.max_columns', None)
+
+# Show exactly 10 rows to verify the perfect table structure
+df_bookings_production.head(5)
+
 
 ```python
 print("RE-RUNNING PHASE 2: Reinstating Missing Client Descriptors to Table 1...")
@@ -465,6 +574,60 @@ The final pass locks in consistent casing and explicitly keeps the client key, c
 ## 7. Feature Engineering
 
 Cleaning fixes what is wrong. Feature engineering adds what was never there. Each production table gets two new columns that turn raw fields into flags and segments a business team can act on. The processing hours metric for bookings was already created during cleaning.
+
+### Travel Bookings: Data Quality issues & Operational Problems
+
+```python
+print("EXECUTION MASTER PIPELINE: Upgrading Table 1 & Imputing Durations...\n")
+
+# 1. Read your active production dataset directly from your local directory folder
+df_bookings_prod = pd.read_csv('prod_travel_bookings.csv')
+
+# FEATURE 1: Gross Financial Cost Realization (In-Place)
+# Logic: Strips currency symbols, cleans numeric layers, and formats seamlessly
+print("Engineering Feature 1: 'total_gross_cost'...")
+base_num = pd.to_numeric(df_bookings_prod['base_fare_usd'].str.replace(r'[\$,]', '', regex=True), errors='coerce')
+df_bookings_prod['total_gross_cost'] = base_num.apply(lambda x: f"${x:,.2f}" if pd.notnull(x) else np.nan)
+
+# FEATURE 2: Structural Travel Segment Classification (In-Place)
+# Logic: Maps category sub-types into explicit high-level business divisions
+print("Engineering Feature 2: 'travel_classification'...")
+df_bookings_prod['travel_classification'] = np.where(
+    df_bookings_prod['travel_type'].str.contains('Flight', case=False, na=False),
+    'Flight',
+    'Lodging'
+)
+
+# FEATURE 3: Missing Value Imputation (In-Place)
+# Logic: Calculates system median and completely overwrites NaN duration nodes
+print("Checking for missing duration nodes...")
+# Compute the mathematical median duration across all valid transaction records
+median_duration = df_bookings_prod['processing_duration_hours'].median()
+print(f"  └── Calculated Baseline System Median Processing Time: {median_duration:.1f} Hours")
+
+# Fill missing NaN elements inside processing hours using your median baseline
+df_bookings_prod['processing_duration_hours'] = df_bookings_prod['processing_duration_hours'].fillna(median_duration)
+
+# FEATURE 4: Operational Contract SLA Status Profiling (In-Place Update)
+# Logic: Dynamically re-evaluates and resets status mapping to fix errors
+print("Engineering Feature 4: Recalculating 'sla_status' thresholds...\n")
+df_bookings_prod['sla_status'] = np.where(
+    df_bookings_prod['processing_duration_hours'] <= df_bookings_prod['contract_sla_hours'],
+    'Within SLA',
+    'SLA Breached'
+)
+
+# 2. In-Place Production Save: Overwrite file to incorporate your missing data fixes
+output_file = 'prod_travel_bookings.csv'
+df_bookings_prod.to_csv(output_file, index=False)
+
+print(f"SUCCESS: Master engineered production asset updated and saved to '{output_file}'!")
+
+# Override Jupyter column restrictions to display absolutely everything horizontally
+pd.set_option('display.max_columns', None)
+
+# Display exactly the first 10 rows to verify that all NaN nodes have been successfully removed
+df_bookings_prod[['booking_id', 'travel_type', 'travel_classification', 'base_fare_usd', 'total_gross_cost', 'processing_duration_hours', 'sla_status']].head(5)
 
 ### Ancillary Services: Leakage Flag and Value Tier
 
