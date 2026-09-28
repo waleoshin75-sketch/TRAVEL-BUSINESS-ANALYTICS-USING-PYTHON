@@ -1,7 +1,6 @@
 # TRAVEL BUSINESS ANALYTICS USING PYTHON
 ### *Optimizing Omni-Channel Revenue, Mitigating Transactional Leakage, and Auditing Operational SLA Workflow Velocity Using Python & Pandas*
 
-
 ---
 
 ## Table of Contents
@@ -38,13 +37,24 @@ The relational infrastructure cross-references four primary data ledgers contain
 An initial assessment of the raw source files revealed severe operational friction issues that threatened downstream reporting:
 *   Corrupted Financials: Currency entries were polluted with heavy string formatting (dollar signs, commas, whitespace, and USD tokens).
 *   Chronological Gaps: Key fulfillment timestamp columns contained empty NaN zones and inconsistent data types.
-*   Survey Fragmentation: The customer survey logs contained widespread missing satisfaction values coded arbitrarily.
+*   Survey Fragmentation: The customer survey logs contained widespread missing satisfaction values coded arbitrarily as blank rows.
 *   Casing Volatility: Text fields across lookups and traveler comments suffered from erratic uppercase casing.
 
 ---
 
 ## 4 Data Transformation
-The ETL pipeline isolates text string noise dynamically using Python. It uses Regular Expressions (Regex) to strip out complex currency symbols and forces variables into high-precision numerical float formats. Erratic, mixed-format regional datetime markers were programmatically parsed into a standardized UTC Chronological Object Map to establish a reliable baseline for time-intelligence reporting.
+The ETL pipeline isolates text string noise dynamically using Python. It uses Regular Expressions (Regex) to strip out complex currency symbols and forces variables into high-precision numerical float formats. Erratic, mixed-format regional datetime markers were programmatically parsed into a standardized UTC Chronological Object Map.
+
+```python
+# Synchronizing erratic क्षेत्रीय regional datetimes to uniform UTC datetime timestamps
+df_bookings['request_timestamp'] = pd.to_datetime(df_bookings['request_timestamp'], errors='coerce', utc=True)
+df_bookings['issuance_timestamp'] = pd.to_datetime(df_bookings['issuance_timestamp'], errors='coerce', utc=True)
+
+# Calculating high-precision elapsed operational turnaround metrics
+df_bookings['processing_duration_hours'] = (
+    (df_bookings['issuance_timestamp'] - df_bookings['request_timestamp']).dt.total_seconds() / 3600.0
+)
+```
 
 ---
 
@@ -57,37 +67,98 @@ The database engine links independent tracking logs into a unified relational sc
 
 ## 6 Data Cleaning & Error Correction
 Data anomalies were handled directly inside your memory layout using advanced defensive cleaning scripts:
-*   Missing Durations Fixed: Found NaN fields inside fulfillment timeline arrays. These gaps were resolved by calculating the system baseline median processing duration and applying an in-place imputation step to protect calculation accuracy.
+*   Missing Durations Fixed: Imputed blank processing intervals safely using the calculated running system median to preserve math integrity.
 *   Survey Normalization: Resolved missing satisfaction ratings by mapping unassigned parameters safely to a standard neutral indicator integer value (-1).
 *   Casing Cleanups: Normalized erratic lowercase and aggressive text lines into clean, readable Title Case and Sentence Case strings across lookup records and helpdesk complaints.
+
+```python
+# Table 1: Imputing operational timeline gaps using Calculated System Median
+duration_median = df_bookings['processing_duration_hours'].median()
+df_bookings['processing_duration_hours'] = df_bookings['processing_duration_hours'].fillna(duration_median)
+
+# Table 3: Cleaning unstandardized feedback text strings and mapping missing survey integers
+df_cs['customer_satisfaction_score'] = df_cs['customer_satisfaction_score'].fillna(-1).astype(int)
+df_cs['complaint_verdict_text'] = df_cs['complaint_verdict_text'].astype(str).str.strip().str.capitalize()
+
+# Table 4: Enforcing pristine structural master casing and preserving key lookup entries
+df_clients['company_name'] = df_clients['company_name'].astype(str).str.strip().str.title()
+df_clients['client_tier'] = df_clients['client_tier'].astype(str).str.strip().str.title()
+```
 
 ---
 
 ## 7 Feature Engineering
-To move past raw variables and unlock strategic business visibility, four high-impact feature attributes were built:
-*   total_gross_cost: A clean, structured currency variable representing true inventory expenses.
-*   revenue_leakage_flag: Evaluates unbilled workflows to instantly tag items as Leakage Risk or Secure.
-*   operational_urgency_tier: Evaluates negotiated service limits to group client files into High Urgency vs. Standard queues.
-*   account_health_index: Combines corporate tiers and urgency indicators into a combined account management tracker flag.
+To move past raw variables and unlock strategic business visibility, high-impact feature attributes were built and written back directly into the production storage tier on disk:
+
+```python
+# Table 2: Engineering Revenue Leakage Risk and Service Value Priority Tiers
+df_ancillaries['revenue_leakage_flag'] = np.where(
+    df_ancillaries['billed_status'].str.contains('Leakage', case=False, na=False),
+    'Leakage Risk',
+    'Secure'
+)
+
+if df_ancillaries['quoted_price_usd'].dtype == 'object':
+    price_num = pd.to_numeric(df_ancillaries['quoted_price_usd'].str.replace(r'[\$,]', '', regex=True), errors='coerce')
+else:
+    price_num = pd.to_numeric(df_ancillaries['quoted_price_usd'], errors='coerce')
+
+df_ancillaries['service_priority_tier'] = np.where(price_num >= 300.00, 'High Value', 'Standard Value')
+```
 
 ---
 
 ## 8 Core Business Analysis
 
 ### Objective 1: Optimize Omni-Channel Revenue & Margin Realization
-Cross-tabulated transaction spend loops across your front-end intake tracks (Online CBT vs. Offline Agent) and travel sectors. The analysis unmasked key distribution fields, pinpointing exactly where corporate bookings are heavily concentrated and highlighting system pricing configuration anomalies.
+Cross-tabulated transaction spend loops across front-end intake tracks (Online CBT vs. Offline Agent) and travel sectors to expose automated system configuration errors.
+
+```python
+# Aggregating transactional volume performance metrics and base fare pricing spreads
+obj1_metrics = df_bookings.groupby(['booking_channel', 'travel_classification'])['base_fare_numeric'].agg(
+    ['count', 'sum', 'mean', 'min', 'max']
+).reset_index()
+```
 
 ### Objective 2: Mitigate Transactional Revenue Leakage
-Audited secondary value-added rows to isolate completed deliverables that bypassed primary invoicing engines. The analysis successfully exposed $55,101.18 in total unbilled cash losses, with Zeta Financial Services ranking as the highest-risk account holding outstanding capital.
+Audited secondary value-added rows to isolate completed deliverables that bypassed primary invoicing engines. The analysis successfully exposed $55,101.18 in total unbilled cash losses.
+
+```python
+# Merging ancillary logs with bookings and master corporate directories to track leak paths
+df_leaks_step1 = pd.merge(df_ancillaries, df_bookings[['booking_key', 'client_key']], on='booking_key', how='inner')
+df_leakage_master = pd.merge(df_leaks_step1, df_clients[['client_key', 'company_name', 'client_tier']], on='client_key', how='inner')
+
+total_leakage = df_leakage_master[df_leakage_master['revenue_leakage_flag'] == 'Leakage Risk']['quoted_price_numeric'].sum()
+```
 
 ### Objective 3: Audit Service SLA Adherence & Workflow Velocity
-Cross-referenced turnaround fulfillment times against strict contractual response windows. The analysis unmasked a severe 70.2% global workflow breach rate, proving that delayed or bottlenecked ticketing desks routinely slide to over 18 to 20+ processing hours.
+Cross-referenced turnaround fulfillment times against strict contractual response windows. The analysis unmasked a severe 70.2% global workflow breach rate.
+
+```python
+# Evaluation of compliance metrics across negotiated contract hour limits
+total_tickets = len(df_bookings)
+total_breaches = (df_bookings['sla_status'] == 'SLA Breached').sum()
+global_breach_rate = (total_breaches / total_tickets) * 100
+```
 
 ### Objective 4: Uncover Customer Churn Triggers & Sentiment Drivers
-Aggregated customer feedback categories side-by-side with survey rankings. The script isolated Flight Delay Protocol Failure (46 active logs) and Overbilling Request Dispute (42 active logs) as the top operational triggers causing customer dissatisfaction.
+Aggregated customer feedback categories side-by-side with survey rankings to isolate the top operational triggers causing customer dissatisfaction.
+
+```python
+# Tracking active feedback hotspots across customer service logs
+sentiment_profiles = df_cs.groupby(['complaint_category', 'satisfaction_segment']).size().reset_index(name='incident_volume')
+```
 
 ### Objective 5: Enhance Industry Market Competitiveness
-Generated a full account product cross-sell penetration index across all five product pillars (Flights, Hotels, Visas, Protocol, Car Hire). This matrix maps product adoption rates horizontally to help sales teams spot multi-product cross-sell white spaces.
+Generated a full account product cross-sell penetration index across all five product pillars (Flights, Hotels, Visas, Protocol, Car Hire) to map product adoption depths horizontally.
+
+```python
+# Compiling the final account portfolio wallet-share penetration matrix
+core_counts = df_bookings.groupby('company_name').agg(
+    flights_issued=('is_flight', 'sum'),
+    hotels_booked=('is_hotel', 'sum')
+).reset_index()
+```
 
 ---
 
