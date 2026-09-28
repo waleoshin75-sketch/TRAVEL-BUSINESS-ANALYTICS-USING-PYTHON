@@ -582,7 +582,7 @@ The final pass locks in consistent casing and explicitly keeps the client key, c
 
 Cleaning fixes what is wrong. Feature engineering adds what was never there. Each production table gets two new columns that turn raw fields into flags and segments a business team can act on. The processing hours metric for bookings was already created during cleaning.
 
-### Travel Bookings:
+### Travel Bookings: Missing Data Holes and Formatting Errors
 
 ```python
 print("EXECUTION MASTER PIPELINE: Upgrading Table 1 & Imputing Durations...\n")
