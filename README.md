@@ -147,7 +147,7 @@ Mixed casing in company names and channel labels can split one client into sever
 
 This phase turns the three supporting tables into clean production files. Each one starts from a protected copy of the raw data, so the original audit state is never overwritten. The bookings table is handled later in the cleaning phase, because it needs client details from the relational model first.
 
-### phase 1: Travel Bookings Transactions Ledger
+### Phase 1: Travel Booking Ledger
 
 ```python
 print("PIPELINE PHASE 1: Processing Core Travel Bookings Transactions Ledger...\n")
@@ -212,6 +212,8 @@ print(f"Total Verified Clean Rows: {len(df_bookings_prod)}")
 
 # Display data verification matrix
 df_bookings_prod[['booking_id', 'booking_channel', 'base_fare_usd', 'processing_duration_hours']].head(5)
+```
+Stripping currency text flags from 'base_fare_usd', Standardizing 'booking_channel' text casing splits, Synchronizing mixed timestamp date profiles, Calculating fulfillment turnaround times in hours (TAT)
 
 ### Phase 2: Ancillary Operations Ledger
 
@@ -370,7 +372,7 @@ df_cs_relational = pd.merge(
     how='inner'
 )
 
-print(" SUCCESS: Core Star Schema Data Model successfully mapped in memory!")
+print("SUCCESS: Core Star Schema Data Model successfully mapped in memory!")
 print(f"• Integrated Relational Bookings Table Structure Dimensions:  {df_bookings_relational.shape}")
 print(f"• Integrated Relational Ancillaries Table Structure Dimensions: {df_ancillaries_relational.shape}")
 print(f"• Integrated Relational Customer Service Table Dimensions:     {df_cs_relational.shape}")
@@ -384,7 +386,8 @@ Each link uses an inner merge, so a record only survives if it has a matching pa
 
 Cleaning now runs on the relational tables, so client details come along for the ride. Three fixes happen here: money stored as text becomes real numbers, text casing is standardized, and timestamps are parsed so processing time can be measured.
 
-### Travel Bookings
+###
+
 ```python
 print("REINSTATING TAXES: Generating the Perfect Clutter-Free Production Dataset...")
 
@@ -427,7 +430,11 @@ pd.set_option('display.max_columns', None)
 
 # Show exactly 10 rows to verify the perfect table structure
 df_bookings_production.head(5)
+```
 
+This fixes corrupted currency formatting by stripping out messy symbols and spaces from the transaction values. It also standardizes inconsistent text casing and fixes chaotic regional time stamps to accurately calculate processing duration metrics.
+
+### Travel Bookings
 
 ```python
 print("RE-RUNNING PHASE 2: Reinstating Missing Client Descriptors to Table 1...")
@@ -575,7 +582,7 @@ The final pass locks in consistent casing and explicitly keeps the client key, c
 
 Cleaning fixes what is wrong. Feature engineering adds what was never there. Each production table gets two new columns that turn raw fields into flags and segments a business team can act on. The processing hours metric for bookings was already created during cleaning.
 
-### Travel Bookings: Data Quality issues & Operational Problems
+### Travel Bookings:
 
 ```python
 print("EXECUTION MASTER PIPELINE: Upgrading Table 1 & Imputing Durations...\n")
@@ -628,6 +635,9 @@ pd.set_option('display.max_columns', None)
 
 # Display exactly the first 10 rows to verify that all NaN nodes have been successfully removed
 df_bookings_prod[['booking_id', 'travel_type', 'travel_classification', 'base_fare_usd', 'total_gross_cost', 'processing_duration_hours', 'sla_status']].head(5)
+```
+
+This fixes missing data holes and formatting errors by cleaning price strings and filling empty duration gaps with the system median.
 
 ### Ancillary Services: Leakage Flag and Value Tier
 
