@@ -1,0 +1,9 @@
+client_key,corporate_id,company_name,client_tier,preferred_channel,contract_sla_hours
+1,CORP-1000,Alpha Global Corp,Silver,Mixed,2
+2,CORP-1001,beta logistics llc,Platinum,Online CBT,2
+3,CORP-1002,GAMMA PHARMA INC,Platinum,Mixed,2
+4,CORP-1003,Delta Tech Solutions,Silver,Mixed,4
+5,CORP-1004,omega energy group,Gold,Mixed,4
+6,CORP-1005,ZETA FINANCIAL SERVICES,Platinum,Online CBT,2
+7,CORP-1006,Sigma Manufacturing,Platinum,Mixed,4
+8,CORP-1007,Theta Ventures,Platinum,Offline Agent,24
