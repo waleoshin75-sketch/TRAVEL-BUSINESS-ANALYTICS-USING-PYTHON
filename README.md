@@ -19,8 +19,8 @@ Built an end-to-end Pandas pipeline that audits, cleans and models four corporat
 4. [Data Cleaning and Error Correction](#4-data-cleaning-and-error-correction)
 5. [Feature Engineering](#5-feature-engineering)
 6. [Data Modeling](#6-data-modeling)
-7. [Business Analysis](#7-business-analysis)
-8. [Visual Results](#8-visual-results)
+7. [Business Objectives](#7-business-objectives)
+8. [Data_Visual Results](#8-visual-results)
 9. [Key Findings](#9-key-findings)
 10. [Recommendations](#10-recommendations)
 11. [Conclusion](#11-conclusion)
@@ -205,7 +205,7 @@ df_ancillaries_relational = pd.merge(
 df_cs_relational = pd.merge(df_cs_raw, df_clients_raw, on='client_key', how='inner')
 ```
 
-## 7. Business Analysis
+## 7. Business Objectives
 
 | # | Objective | Technique |
 |---|---|---|
