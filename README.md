@@ -21,7 +21,7 @@ Built an end-to-end Pandas pipeline that audits, cleans and models four corporat
 6. [Data Modeling](#6-data-modeling)
 7. [Business Objectives](#7-business-objectives)
 8. [Data_Visualization_and_Interpretation](#8-Data_visualization-interpretation)
-9. [Key Findings](#9-key-findings)
+9. [Key Findings_and_Insight](#9-key-findings_insight)
 10. [Recommendations](#10-recommendations)
 11. [Conclusion](#11-conclusion)
 
@@ -364,7 +364,7 @@ Flight Delay Protocol Failure (46) and Overbilling Request Dispute (42) generate
 ### Objective 5: Market competitiveness
 <img width="3000" height="1156" alt="objective-5-competitiveness (2)" src="https://github.com/user-attachments/assets/d7301f86-3433-45d7-8f8a-692daaef9390" />
 
-## 9. Key Findings
+## 9. Key Findings and Insight
 
 Outputs depend on the loaded data. Run the notebook to produce current figures. The analysis is built to reveal:
 
