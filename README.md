@@ -1,4 +1,4 @@
-# Travel Business Analytics in Python
+# Travel Business Analytics Using Python
 
 **Python | Pandas | NumPy | Star schema | Revenue leakage, SLA adherence and customer sentiment analytics**
 
@@ -20,7 +20,7 @@ Built an end-to-end Pandas pipeline that audits, cleans and models four corporat
 5. [Feature Engineering](#5-feature-engineering)
 6. [Data Modeling](#6-data-modeling)
 7. [Business Objectives](#7-business-objectives)
-8. [Data_Visual Results](#8-visual-results)
+8. [Data_Visualization_and_Interpretation](#8-Data_visualization-interpretation)
 9. [Key Findings](#9-key-findings)
 10. [Recommendations](#10-recommendations)
 11. [Conclusion](#11-conclusion)
@@ -342,7 +342,7 @@ print(competitiveness.sort_values('flight_volume', ascending=False).to_string(in
 ```
 </details>
 
-## 8. Visual Results
+## 8. Data Visualization and Interpretation
 
 Each business objective is shown as a pair of graphs side by side.
 
