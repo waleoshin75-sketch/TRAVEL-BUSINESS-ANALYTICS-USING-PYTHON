@@ -347,22 +347,22 @@ print(competitiveness.sort_values('flight_volume', ascending=False).to_string(in
 Each business objective is shown as a pair of graphs side by side.
 
 ### Objective 1: Omni-channel revenue
-![Objective 1: Omni-channel revenue and margin realization](images/objective-1-revenue.png)
+<img width="3000" height="1156" alt="objective-1-revenue (1)" src="https://github.com/user-attachments/assets/2555ccbf-7c9a-4b23-9453-4857b6c60d53" />
 
 ### Objective 2: Revenue leakage
-![Objective 2: Transactional revenue leakage](images/objective-2-leakage.png)
+<img width="3000" height="1156" alt="objective-2-leakage (1)" src="https://github.com/user-attachments/assets/88180451-9e2b-4582-9159-5cfe3af58c8e" />
 Unbilled ancillary services total about $55.1K. Platinum clients account for roughly $32.9K of it, and Airport Protocol is the largest service line at about $20.9K.
 
 ### Objective 3: SLA adherence
-![Objective 3: Service SLA adherence and workflow velocity](images/objective-3-sla.png)
+<img width="3000" height="1156" alt="objective-3-sla (1)" src="https://github.com/user-attachments/assets/5bc6ac06-6e35-4310-a436-d8fb00d7fd64" />
 Gamma Pharma Inc. logs the most SLA breaches (57). Theta Ventures has the longest average turnaround on breached tickets, at about 42 hours against a 24-hour contract window.
 
 ### Objective 4: Churn triggers and sentiment
-![Objective 4: Customer churn triggers and sentiment drivers](images/objective-4-sentiment.png)
+<img width="3000" height="1156" alt="objective-4-sentiment (1)" src="https://github.com/user-attachments/assets/15a808aa-9bac-49ab-8c7f-39ff0e48074e" />
 Flight Delay Protocol Failure (46) and Overbilling Request Dispute (42) generate the most tickets. Average satisfaction is similar across categories, between 2.9 and 3.1 out of 5.
 
 ### Objective 5: Market competitiveness
-![Objective 5: Industry market competitiveness](images/objective-5-competitiveness.png)
+<img width="3000" height="1156" alt="objective-5-competitiveness (2)" src="https://github.com/user-attachments/assets/d7301f86-3433-45d7-8f8a-692daaef9390" />
 
 ## 9. Key Findings
 
